@@ -1,0 +1,1 @@
+export async function renderPeople() { const container = document.getElementById('people-container'); if (!container) return; const res = await fetch('data/people.json'); const people = await res.json(); container.innerHTML = people.map(p => `<div class='card'><h3>${p.name}</h3><p class='text-muted'>${p.position}</p><p>${p.biography}</p></div>`).join(''); }

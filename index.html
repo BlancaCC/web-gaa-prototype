@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="groupName">Research Group</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <nav class="container">
+            <div class="logo"><a href="#home" data-i18n="groupName">Group</a></div>
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="#about" data-i18n="nav.about">About Us</a></li>
+                <li><a href="#research" data-i18n="nav.research">Research</a></li>
+                <li><a href="#people" data-i18n="nav.people">People</a></li>
+                <li><a href="#publications" data-i18n="nav.publications">Publications</a></li>
+                <li><a href="#events" data-i18n="nav.events">Events</a></li>
+                <li><a href="#software" data-i18n="nav.software">Software</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="controls">
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">🌓</button>
+                <select id="lang-switcher">
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                </select>
+            </div>
+            <button class="mobile-menu-btn">☰</button>
+        </nav>
+    </header>
+    <main id="app-content"></main>
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> <span data-i18n="groupName"></span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

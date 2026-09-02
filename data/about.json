@@ -1,1 +1,37 @@
-{}
+{
+    "presentation": {
+        "en": "We are a research group at University X dedicated to explainable AI and machine learning.",
+        "es": "Somos un grupo de investigación en la Universidad X dedicado a la IA explicable y el aprendizaje automático."
+    },
+    "mission": {
+        "en": "To develop trustworthy algorithms that empower human decision-making.",
+        "es": "Desarrollar algoritmos confiables que potencien la toma de decisiones humana."
+    },
+    "vision": {
+        "en": "A world where machine learning systems are transparent and accessible to everyone.",
+        "es": "Un mundo donde los sistemas de aprendizaje automático sean transparentes y accesibles para todos."
+    },
+    "milestones": [
+        {
+            "year": "2026",
+            "event": {
+                "en": "Awarded major national AI infrastructure grant",
+                "es": "Concesión de una importante ayuda nacional para infraestructura de IA"
+            }
+        }
+    ],
+    "collaborations": [
+        { "name": "Partner University", "link": "https://example.edu" }
+    ],
+    "funding": [
+        { 
+            "project": "TrustAI", 
+            "agency": "Horizon Europe", 
+            "period": "2024-2027", 
+            "description": {
+                "en": "Investigating interpretability techniques for deep learning models.",
+                "es": "Investigación de técnicas de interpretabilidad para modelos de aprendizaje profundo."
+            }
+        }
+    ]
+}

@@ -32,12 +32,63 @@
             <button class="mobile-menu-btn">☰</button>
         </nav>
     </header>
-    <main id="app-content"></main>
+
+    <main id="app-content">
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h1 data-i18n="groupName"></h1>
+                <p class="mission" data-i18n="home.mission"></p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary" data-i18n="btn.learnMore">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="container page-section">
+            <h1 data-i18n="nav.about">About Us</h1>
+            <div id="about-content"></div>
+        </section>
+
+        <!-- Placeholders for upcoming sections -->
+        <section id="research" class="container page-section">
+            <h1 data-i18n="nav.research">Research</h1>
+            <div id="research-container"></div>
+        </section>
+
+        <section id="people" class="container page-section">
+            <h1 data-i18n="nav.people">People</h1>
+            <div id="people-container"></div>
+        </section>
+
+        <section id="publications" class="container page-section">
+            <h1 data-i18n="nav.publications">Publications</h1>
+            <div id="publications-container"></div>
+        </section>
+
+        <section id="events" class="container page-section">
+            <h1 data-i18n="nav.events">Events</h1>
+            <div id="events-container"></div>
+        </section>
+
+        <section id="software" class="container page-section">
+            <h1 data-i18n="nav.software">Software</h1>
+            <div id="software-container"></div>
+        </section>
+
+        <section id="contact" class="container page-section">
+            <h1 data-i18n="nav.contact">Contact</h1>
+            <div id="contact-container"></div>
+        </section>
+    </main>
+
     <footer>
         <div class="container">
             <p>&copy; <span id="year"></span> <span data-i18n="groupName"></span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
         </div>
     </footer>
+
     <script type="module" src="js/app.js"></script>
 </body>
 </html>

@@ -150,3 +150,35 @@
     color: #fff; 
     border-color: #a6ce39; 
 }
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--text-main);
+    text-decoration: none;
+}
+
+.logo-img {
+    height: 50px !important;
+    width: auto !important;
+    max-height: 150px !important;
+    object-fit: contain;
+}
+
+/* Light mode (default): show light logo, hide dark logo */
+.logo-light {
+    display: block !important;
+}
+.logo-dark {
+    display: none !important;
+}
+
+/* Dark mode: show dark logo, hide light logo */
+.dark-mode .logo-light {
+    display: none !important;
+}
+.dark-mode .logo-dark {
+    display: block !important;
+}

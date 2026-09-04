@@ -6,38 +6,70 @@ section[id] {
     scroll-margin-top: 80px;
 }
 
-:root { 
-    --bg-color: #ffffff; 
-    --text-main: #333333; 
+/* Light Theme Variables (Default) */
+:root {
+    --bg-color: #ffffff;
+    --text-main: #222222;
     --text-muted: #666666;
-    --primary: #0056b3; 
-    --secondary: #e9ecef; 
-    --card-bg: #f8f9fa; 
-    --border: #dddddd; 
-    --transition: all 0.3s ease; 
-} 
+    --primary: #0056b3;
+    --secondary: #f0f2f5;
+    --card-bg: #ffffff;
+    --border: #e0e0e0;
+    --transition: background-color 0.25s ease, color 0.25s ease;
+    color-scheme: light;
+}
 
-body.dark-mode { 
-    --bg-color: #121212; 
-    --text-main: #f1f1f1; 
-    --text-muted: #aaaaaa;
-    --primary: #4da3ff; 
-    --secondary: #2c2c2c; 
-    --card-bg: #1e1e1e; 
-    --border: #333333; 
-} 
+/* Dark Theme Variables: Matches <html>, <body>, or any ancestor */
+html.dark-mode,
+body.dark-mode,
+:root.dark-mode {
+    --bg-color: #121212;
+    --text-main: #e4e4e7;
+    --text-muted: #a1a1aa;
+    --primary: #60a5fa;
+    --secondary: #27272a;
+    --card-bg: #1e1e1e;
+    --border: #3f3f46;
+    color-scheme: dark;
+}
 
-* { margin: 0; padding: 0; box-sizing: border-box; } 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-body { 
-    background-color: var(--bg-color); 
-    color: var(--text-main); 
-    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+html, body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    transition: background-color var(--transition), color var(--transition); 
-} 
+    transition: var(--transition);
+    min-height: 100vh;
+}
 
-.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; } 
-.page-section { padding: 4rem 0; min-height: 60vh; } 
-h1, h2, h3 { margin-bottom: 1rem; color: var(--text-main); } 
-a { color: var(--primary); text-decoration: none; }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.page-section {
+    padding: 4rem 0;
+    min-height: 60vh;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+select, button, input {
+    font-family: inherit;
+    color: inherit;
+}

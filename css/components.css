@@ -36,3 +36,117 @@
     .about-grid { grid-template-columns: 1fr; }
     .mission-vision { grid-template-columns: 1fr; }
 }
+
+/* People Section */
+.people-subgroup { 
+    margin-top: 3.5rem; 
+}
+
+.people-subgroup:first-child { 
+    margin-top: 1rem; 
+}
+
+.subgroup-title {
+    font-size: 1.4rem;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary);
+}
+
+.person-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.person-header {
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.person-name { 
+    font-size: 1.2rem; 
+    margin-bottom: 0.2rem; 
+}
+
+.person-role { 
+    font-size: 0.9rem; 
+    color: var(--primary); 
+    font-weight: 600; 
+}
+
+.person-affil { 
+    font-size: 0.85rem; 
+    color: var(--text-muted); 
+    margin-top: 0.15rem; 
+}
+
+.person-bio { 
+    font-size: 0.92rem; 
+    color: var(--text-muted); 
+    margin-bottom: 1rem; 
+    line-height: 1.5;
+}
+
+/* Alumni metadata blocks */
+.alumni-badge, .alumni-thesis {
+    background-color: var(--secondary);
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    margin-bottom: 0.6rem;
+}
+
+.badge-title { 
+    font-weight: bold; 
+    display: block; 
+    margin-bottom: 0.2rem; 
+    color: var(--text-main); 
+}
+
+.badge-content { 
+    color: var(--text-muted); 
+}
+
+/* Person Link Buttons */
+.person-links {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 1.2rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--border);
+}
+
+.link-icon { 
+    font-size: 1.1rem; 
+    color: var(--text-muted); 
+    text-decoration: none; 
+}
+
+.link-icon:hover { 
+    color: var(--primary); 
+}
+
+.link-badge {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 4px;
+    background: var(--secondary);
+    color: var(--text-main);
+    border: 1px solid var(--border);
+    font-weight: 600;
+}
+
+.link-badge:hover { 
+    background: var(--primary); 
+    color: #fff; 
+}
+
+.link-badge.orcid:hover { 
+    background: #a6ce39; 
+    color: #fff; 
+    border-color: #a6ce39; 
+}

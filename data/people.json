@@ -1,1 +1,83 @@
-[{"name": "Dr. Alan Turing", "position": "Director", "biography": "Focuses on AI."}]
+[
+  {
+    "category": "researcher",
+    "name": "José Ramón Dorronsoro Ibero",
+    "role": {
+      "en": "Director & Principal Investigator",
+      "es": "Director e Investigador Principal"
+    },
+    "bio": {
+      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
+      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
+    },
+    "photo": "",
+    "email": "jose.ramon.dorronsoro@example.edu",
+    "scholar": "https://scholar.google.com",
+    "orcid": "",
+    "website": "",
+    "interests": ["AI Foundations", "Neural Networks"]
+  },
+  {
+    "category": "affiliated",
+    "name": "Dr. Katherine Johnson",
+    "role": {
+      "en": "Visiting Professor",
+      "es": "Profesora Visitante"
+    },
+    "affiliation": {
+      "en": "NASA Research Center",
+      "es": "Centro de Investigación de la NASA"
+    },
+    "bio": {
+      "en": "Collaborates on mathematical verification and trajectory optimization algorithms.",
+      "es": "Colabora en verificación matemática y algoritmos de optimización de trayectorias."
+    },
+    "photo": "",
+    "email": "kjohnson@example.org",
+    "scholar": "https://scholar.google.com",
+    "orcid": "0000-0001-5109-3700",
+    "website": "",
+    "interests": ["Verification", "Optimization"]
+  },
+  {
+    "category": "phd",
+    "name": "Grace Hopper",
+    "role": {
+      "en": "PhD Candidate",
+      "es": "Doctoranda"
+    },
+    "bio": {
+      "en": "Investigating automated program synthesis and natural language query systems for data science.",
+      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
+    },
+    "photo": "",
+    "email": "grace.hopper@example.edu",
+    "scholar": "https://scholar.google.com",
+    "orcid": "",
+    "website": "https://example.edu/~ghopper",
+    "interests": ["Compilers", "NLP"]
+  },
+  {
+    "category": "alumni",
+    "name": "Dr. Claude Shannon",
+    "role": {
+      "en": "PhD Graduate (2024)",
+      "es": "Graduado de Doctorado (2024)"
+    },
+    "defenseYear": "2024",
+    "thesisTitle": {
+      "en": "A Mathematical Theory of Latent Space Communication",
+      "es": "Una teoría matemática de la comunicación en espacios latentes"
+    },
+    "currentWork": {
+      "en": "Staff Research Scientist at Bell Labs",
+      "es": "Científico de Investigación en Bell Labs"
+    },
+    "photo": "",
+    "email": "cshannon@bell.example.com",
+    "scholar": "https://scholar.google.com",
+    "orcid": "",
+    "website": "",
+    "interests": ["Information Theory"]
+  }
+]

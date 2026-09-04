@@ -1,29 +1,38 @@
 {
-    "groupName": "Laboratorio de IA Avanzada",
-    "home": {
-        "mission": "Pioneros en Inteligencia Artificial confiable y explicable."
-    },
-    "nav": {
-        "home": "Inicio",
-        "about": "Nosotros",
-        "research": "Investigación",
-        "people": "Equipo",
-        "publications": "Publicaciones",
-        "events": "Eventos",
-        "software": "Software",
-        "contact": "Contacto"
-    },
-    "btn": {
-        "learnMore": "Saber Más"
-    },
-    "about": {
-        "mission": "Misión",
-        "vision": "Visión",
-        "funding": "Proyectos Financiados",
-        "milestones": "Hitos",
-        "collaborators": "Colaboradores"
-    },
-    "footer": {
-        "rights": "Todos los derechos reservados."
-    }
+  "groupName": "Laboratorio de IA Avanzada",
+  "home": {
+    "mission": "Pioneros en Inteligencia Artificial confiable y explicable."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "research": "Investigación",
+    "people": "Equipo",
+    "publications": "Publicaciones",
+    "events": "Eventos",
+    "software": "Software",
+    "contact": "Contacto"
+  },
+  "btn": {
+    "learnMore": "Saber Más"
+  },
+  "about": {
+    "mission": "Misión",
+    "vision": "Visión",
+    "funding": "Proyectos Financiados",
+    "milestones": "Hitos",
+    "collaborators": "Colaboradores"
+  },
+  "people": {
+    "title": "Equipo",
+    "researchers": "Investigadores Principales y Profesorado",
+    "affiliated": "Investigadores Afiliados",
+    "phd": "Estudiantes de Doctorado",
+    "alumni": "Antiguos Doctorandos y Alumni",
+    "currentRole": "Posición Actual:",
+    "thesis": "Tesis:"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
 }

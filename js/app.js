@@ -1,30 +1,54 @@
 import { initI18n, applyTranslations } from './i18n.js';
 import { renderAbout } from './about.js';
+import { renderPeople } from './people.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
-    document.getElementById('year').textContent = new Date().getFullYear();
-    
-    // Theme setup
-    const themeBtn = document.getElementById('theme-toggle');
-    if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
-    
-    themeBtn.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
-    });
+    // 1. Dynamic Footer Year
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-    // Mobile navigation toggle
+    // 2. Bulletproof Theme Setup
+    const themeBtn = document.getElementById('theme-toggle');
+    
+    function setTheme(isDark) {
+        if (isDark) {
+            document.documentElement.classList.add('dark-mode');
+            document.body.classList.add('dark-mode');
+            if (themeBtn) themeBtn.textContent = '☀️';
+            localStorage.setItem('theme', 'dark');
+        } else {
+            document.documentElement.classList.remove('dark-mode');
+            document.body.classList.remove('dark-mode');
+            if (themeBtn) themeBtn.textContent = '🌙';
+            localStorage.setItem('theme', 'light');
+        }
+    }
+
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initialDark = savedTheme === 'dark' || (!savedTheme && prefersDark);
+    setTheme(initialDark);
+
+    if (themeBtn) {
+        themeBtn.addEventListener('click', () => {
+            const isCurrentlyDark = document.documentElement.classList.contains('dark-mode');
+            setTheme(!isCurrentlyDark);
+        });
+    }
+
+    // 3. Mobile Navigation
     const mobileBtn = document.querySelector('.mobile-menu-btn');
     const navLinks = document.querySelector('.nav-links');
-    mobileBtn.addEventListener('click', () => navLinks.classList.toggle('active'));
+    if (mobileBtn && navLinks) {
+        mobileBtn.addEventListener('click', () => navLinks.classList.toggle('active'));
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => navLinks.classList.remove('active'));
+        });
+    }
 
-    // Close menu when link is clicked
-    navLinks.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => navLinks.classList.remove('active'));
-    });
-
-    // Initialize translations & render content
+    // 4. Initialize Translations & Render Components
     await initI18n();
     applyTranslations();
     renderAbout();
+    renderPeople();
 });

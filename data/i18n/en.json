@@ -1,29 +1,38 @@
 {
-    "groupName": "Advanced AI Lab",
-    "home": {
-        "mission": "Pioneering trustworthy and explainable Artificial Intelligence."
-    },
-    "nav": {
-        "home": "Home",
-        "about": "About Us",
-        "research": "Research",
-        "people": "People",
-        "publications": "Publications",
-        "events": "Events",
-        "software": "Software",
-        "contact": "Contact"
-    },
-    "btn": {
-        "learnMore": "Learn More"
-    },
-    "about": {
-        "mission": "Mission",
-        "vision": "Vision",
-        "funding": "Funding Projects",
-        "milestones": "Milestones",
-        "collaborators": "Collaborators"
-    },
-    "footer": {
-        "rights": "All rights reserved."
-    }
+  "groupName": "Advanced AI Lab",
+  "home": {
+    "mission": "Pioneering trustworthy and explainable Artificial Intelligence."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "research": "Research",
+    "people": "People",
+    "publications": "Publications",
+    "events": "Events",
+    "software": "Software",
+    "contact": "Contact"
+  },
+  "btn": {
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "mission": "Mission",
+    "vision": "Vision",
+    "funding": "Funding Projects",
+    "milestones": "Milestones",
+    "collaborators": "Collaborators"
+  },
+  "people": {
+    "title": "People",
+    "researchers": "Faculty & Principal Researchers",
+    "affiliated": "Affiliated Researchers",
+    "phd": "PhD Students",
+    "alumni": "Past PhDs & Alumni",
+    "currentRole": "Current Position:",
+    "thesis": "Thesis:"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
 }

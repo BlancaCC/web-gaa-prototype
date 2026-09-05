@@ -1,6 +1,7 @@
 import { initI18n, applyTranslations } from './i18n.js';
 import { renderAbout } from './about.js';
 import { renderPeople } from './people.js';
+import { renderEvents } from './events.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
     // 1. Dynamic Footer Year
@@ -51,4 +52,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     applyTranslations();
     renderAbout();
     renderPeople();
+    renderEvents();
 });

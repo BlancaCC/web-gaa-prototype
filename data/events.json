@@ -1,1 +1,46 @@
-[]
+[
+    {
+        "id": "egocentric-perception-2026",
+        "title": {
+            "en": "The role of egocentric perception in assistive devices and clinical environments",
+            "es": "El papel de la percepción egocéntrica en dispositivos de asistencia y entornos clínicos"
+        },
+        "date": "2026-06-19",
+        "time": "10:30",
+        "location": {
+            "en": "Sala de Grados A (A-120), Escuela Politécnica Superior, Universidad Autónoma de Madrid",
+            "es": "Sala de Grados A (A-120), Escuela Politécnica Superior, Universidad Autónoma de Madrid"
+        },
+        "online": {
+            "platform": "Microsoft Teams",
+            "url": "https://example.com/meeting"
+        },
+        "speaker": {
+            "name": "Ruben Martinez-Cantin",
+            "affiliation": {
+                "en": "Universidad de Zaragoza and co-director of the Robotics, Computer Vision and Artificial Intelligence group at Instituto de Investigación en Ingeniería de Aragón (I3A) in Zaragoza",
+                "es": "Universidad de Zaragoza y co-director del grupo de Robotics, Computer Vision and Artificial Intelligence del Instituto de Investigación en Ingeniería de Aragón (I3A) de Zaragoza"
+            }
+        },
+        "description": {
+            "en": "Recent advancements in computer vision allow for extracting structural and functional information from first-person viewpoints. This talk explores this landscape through egocentric perception, focusing on wearable cameras for blind and visually impaired individuals, as well as real-time 3D reconstruction during endoscopic procedures. For assistive devices, we explore beyond the standard scene understanding to focus on affordance representation, action anticipation and knowledge transfer. We combine self-supervised methods for affordance grounding, Neural Radiance Fields (NeRFs) for semantic knowledge transfer and a combination of Bayesian methods and attention mechanisms for action anticipation, allowing the system to understand how a human can interact with the environment. Additionally, we incorporate Bayesian deep learning to quantify predictive uncertainty for safe task assistance. Alongside these assistive methods, we present a new SLAM system for online 3D reconstruction of endoscopic images that combines classical geometric and optimization methods with physics-informed deep learning techniques that embed geometric constraints into neural networks for dense 3D reconstruction in clinical environments.",
+            "es": "Los avances recientes en visión por computador permiten extraer información estructural y funcional desde puntos de vista en primera persona. Esta charla explora este ámbito a través de la percepción egocéntrica..."
+        },
+        "image": "assets/images/events/ELLIS_LOGO.png",
+        "type": "seminar",
+        "tags": [
+            "Computer Vision",
+            "Egocentric Perception",
+            "Robotics",
+            "Medical Imaging",
+            "SLAM"
+        ],
+        "links": {
+            "meeting": "https://example.com/meeting",
+            "slides": "files/egocentric-perception-slides.pdf",
+            "recording": null,
+            "documentation": "files/egocentric-perception-abstract.pdf",
+            "additionalMaterials": null
+        }
+    }
+]

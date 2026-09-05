@@ -73,3 +73,161 @@ select, button, input {
     font-family: inherit;
     color: inherit;
 }
+
+/* ============================================================
+   Events
+   One events section, two containers: upcoming and past.
+   Each renders a heading (added by events.js) followed by a
+   horizontally scrollable row of event cards.
+   ============================================================ */
+
+.events-group {
+    margin-bottom: 3rem;
+}
+
+.events-group:last-child {
+    margin-bottom: 0;
+}
+
+.events-group h2 {
+    margin-bottom: 1.5rem;
+}
+
+.events-scroller {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+}
+
+.events-scroller .event-card {
+    flex: 0 0 85%;
+    max-width: 420px;
+    scroll-snap-align: start;
+}
+
+@media (min-width: 768px) {
+    .events-scroller .event-card {
+        flex-basis: 45%;
+    }
+}
+
+/* The first card in each row (soonest upcoming / most recent
+   past) is shown larger, full width, image included. */
+.events-scroller .event-card-featured {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.event-image-wrapper {
+    width: 100%;
+    line-height: 0;
+}
+
+.event-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.event-card-featured .event-image {
+    max-height: 420px;
+}
+
+.event-content {
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.event-date {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.event-title {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+
+.event-type {
+    align-self: flex-start;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    background: var(--secondary);
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+}
+
+.event-location,
+.event-online {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.event-speaker {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.95rem;
+}
+
+.event-speaker span {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.event-description {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.tag {
+    font-size: 0.75rem;
+    background: var(--secondary);
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+}
+
+.event-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.event-link {
+    font-size: 0.85rem;
+    text-decoration: none;
+    padding: 0.35rem 0.8rem;
+    border: 1px solid var(--primary);
+    border-radius: 6px;
+}
+
+.no-events,
+.error {
+    color: var(--text-muted);
+    padding: 1rem 0;
+}

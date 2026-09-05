@@ -105,3 +105,58 @@ No code changes are needed to add, edit, or remove an event — just edit this J
 - **Validate your JSON** before saving (e.g. with a JSON linter or your editor's built-in validation) — a single missing comma will break the whole events list.
 
 
+## Research Topics / Temas de Investigación
+
+**EN:** The topic cards on the "Research" section (things like *Generative AI*, *Kernel Methods*, *Temporal Predictions*, *Robotics*...) are managed entirely through a single file:
+
+**ES:** Las tarjetas de temas de la sección "Research" (cosas como *IA Generativa*, *Métodos de Núcleo*, *Predicciones Temporales*, *Robótica*...) se gestionan por completo a través de un único fichero:
+
+```
+data/research.json
+```
+
+No code changes are needed to add, edit, or remove a topic — just edit this JSON file.
+*(No es necesario tocar código para añadir, editar o eliminar un tema — basta con editar este fichero JSON.)*
+
+### How it works / Cómo funciona
+
+- **EN:** `research.js` reads `data/research.json` and renders one card per entry inside `#research-container`. The page updates automatically when the language is switched (EN/ES), just like People and Events.
+- **ES:** `research.js` lee `data/research.json` y renderiza una tarjeta por cada entrada dentro de `#research-container`. La página se actualiza automáticamente al cambiar de idioma (EN/ES), igual que People y Events.
+
+### Adding a new topic / Añadir un nuevo tema
+
+1. Open `data/research.json` / Abre `data/research.json`.
+2. Copy an existing topic object (the `{ ... }` block) as a template. / Copia un objeto de tema existente (el bloque `{ ... }`) como plantilla.
+3. Paste it as a new entry in the array and fill in the fields below. / Pégalo como una nueva entrada del array y rellena los campos de abajo.
+4. Save the file — no build step or restart is required. / Guarda el fichero — no hace falta compilar ni reiniciar nada.
+
+### Field reference / Referencia de campos
+
+| Field / Campo | Required / Obligatorio | Type / Tipo | Description (EN) | Descripción (ES) |
+|---|---|---|---|---|
+| `id` | ✅ | string | Unique identifier for the topic (e.g. `"generative-ai"`). Not shown to users, just needs to be unique. | Identificador único del tema (p. ej. `"generative-ai"`). No se muestra al usuario, solo debe ser único. |
+| `icon` | ⬜ | string (emoji) | An emoji shown inside the icon box, e.g. `"🤖"`. Defaults to 🔬 if omitted. | Un emoji que se muestra en el recuadro del icono, p. ej. `"🤖"`. Si se omite, se usa 🔬 por defecto. |
+| `topic` | ✅ | string or `{ en, es }` | The topic's title/name. | El título/nombre del tema. |
+| `description` | ✅ | string or `{ en, es }` | One or two sentences describing the topic. | Una o dos frases describiendo el tema. |
+
+- **Bilingual fields** (`topic`, `description`) accept either a plain string or a `{ "en": "...", "es": "..." }` object, exactly like `events.json`. If you only provide English, it will also be used as the fallback for Spanish.
+  *(Los campos bilingües aceptan una cadena simple o un objeto `{ "en": "...", "es": "..." }`, igual que en `events.json`. Si solo pones inglés, también se usará como alternativa para español.)*
+- **Order matters:** topics are shown in the same order as they appear in the JSON array.
+  *(El orden importa: los temas se muestran en el mismo orden en que aparecen en el array del JSON.)*
+
+### Example entry / Ejemplo
+
+```json
+{
+    "id": "example-topic",
+    "icon": "🧪",
+    "topic": {
+        "en": "Example Topic",
+        "es": "Tema de Ejemplo"
+    },
+    "description": {
+        "en": "A short description of what this research line is about.",
+        "es": "Una breve descripción de qué trata esta línea de investigación."
+    }
+}
+```

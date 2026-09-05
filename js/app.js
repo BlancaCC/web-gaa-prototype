@@ -2,6 +2,9 @@ import { initI18n, applyTranslations } from './i18n.js';
 import { renderAbout } from './about.js';
 import { renderPeople } from './people.js';
 import { renderEvents } from './events.js';
+// EN: NEW — renders the "Research" topic cards from data/research.json.
+// ES: NUEVO — renderiza las tarjetas de temas de "Research" a partir de data/research.json.
+import { renderResearch } from './research.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
     // 1. Dynamic Footer Year
@@ -53,4 +56,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderAbout();
     renderPeople();
     renderEvents();
+    // EN: Render the research topic cards (see js/research.js and data/research.json).
+    // ES: Renderiza las tarjetas de temas de investigación (ver js/research.js y data/research.json).
+    renderResearch();
 });

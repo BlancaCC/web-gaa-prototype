@@ -1,0 +1,62 @@
+[
+    {
+        "id": "generative-ai",
+        "icon": "🧬",
+        "topic": {
+            "en": "Generative AI",
+            "es": "IA Generativa"
+        },
+        "description": {
+            "en": "Deep generative models for text, image and multimodal synthesis, including diffusion models, GANs and large language models.",
+            "es": "Modelos generativos profundos para la síntesis de texto, imagen y contenido multimodal, incluyendo modelos de difusión, GANs y grandes modelos de lenguaje."
+        }
+    },
+    {
+        "id": "kernel-methods",
+        "icon": "🧮",
+        "topic": {
+            "en": "Kernel Methods",
+            "es": "Métodos de Núcleo (Kernel)"
+        },
+        "description": {
+            "en": "Support vector machines, Gaussian processes and other kernel-based techniques for classification, regression and structured prediction.",
+            "es": "Máquinas de vectores de soporte, procesos gaussianos y otras técnicas basadas en núcleos para clasificación, regresión y predicción estructurada."
+        }
+    },
+    {
+        "id": "temporal-predictions",
+        "icon": "⏱️",
+        "topic": {
+            "en": "Temporal Predictions",
+            "es": "Predicciones Temporales"
+        },
+        "description": {
+            "en": "Time series forecasting and sequential modeling for real-world applications such as demand prediction and anomaly detection.",
+            "es": "Predicción de series temporales y modelado secuencial para aplicaciones reales como la previsión de demanda y la detección de anomalías."
+        }
+    },
+    {
+        "id": "robotics",
+        "icon": "🤖",
+        "topic": {
+            "en": "Robotics",
+            "es": "Robótica"
+        },
+        "description": {
+            "en": "Perception, planning and learning-based control for autonomous robots operating in real and simulated environments.",
+            "es": "Percepción, planificación y control basado en aprendizaje para robots autónomos que operan en entornos reales y simulados."
+        }
+    },
+    {
+        "id": "semi-supervised-ordinal",
+        "icon": "📊",
+        "topic": {
+            "en": "Semi-Supervised & Ordinal Learning",
+            "es": "Aprendizaje Semi-Supervisado y Ordinal"
+        },
+        "description": {
+            "en": "Learning from partially labeled data, together with ordinal regression frameworks for problems with naturally ordered categories.",
+            "es": "Aprendizaje a partir de datos parcialmente etiquetados, junto con marcos de regresión ordinal para problemas con categorías naturalmente ordenadas."
+        }
+    }
+]

@@ -227,7 +227,57 @@ select, button, input {
 }
 
 .no-events,
-.error {
+.error,
+.no-items {
     color: var(--text-muted);
     padding: 1rem 0;
+}
+
+/* ============================================================
+   Research topics
+   EN: Grid of topic cards rendered by js/research.js from
+       data/research.json. Each card = icon + title + description.
+   ES: Rejilla de tarjetas de temas, renderizada por
+       js/research.js a partir de data/research.json. Cada
+       tarjeta = icono + título + descripción.
+   ============================================================ */
+
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.research-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.research-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background: var(--secondary);
+    border-radius: 10px;
+}
+
+.research-topic {
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.research-description {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.5;
 }

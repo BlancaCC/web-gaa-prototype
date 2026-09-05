@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    EN: Standalone "all publications" page. It reuses the same
+        CSS and the same js/app.js as index.html — app.js only
+        touches elements that exist on the current page (each
+        render function checks `if (!container) return;`), so
+        loading it here is safe and keeps dark mode, language
+        switching and the mobile menu working exactly like on
+        the main site.
+
+    ES: Página independiente de "todas las publicaciones".
+        Reutiliza el mismo CSS y el mismo js/app.js que
+        index.html — app.js solo toca elementos que existen en
+        la página actual (cada función de render comprueba
+        `if (!container) return;`), así que cargarlo aquí es
+        seguro y mantiene el modo oscuro, el cambio de idioma y
+        el menú móvil funcionando igual que en el sitio principal.
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="nav.publications">Publications</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!--
+        EN: Lightweight header (not the full site nav) — this is a
+            sub-page reached FROM the Publications section, so it
+            just needs a way back, the theme toggle and the language
+            switcher. Full site navigation lives on index.html.
+        ES: Cabecera ligera (no la nav completa del sitio) — esta es
+            una subpágina a la que se llega DESDE la sección
+            Publications, así que solo necesita una forma de volver,
+            el interruptor de tema y el selector de idioma. La
+            navegación completa del sitio vive en index.html.
+    -->
+    <header class="sticky-header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Logo" class="logo-img logo-light">
+                    <img src="assets/images/logo_dark.jpeg" alt="Logo" class="logo-img logo-dark">
+                    <span data-i18n="groupName">Group</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#publications" data-i18n="publications.back">← Back to home</a></li>
+            </ul>
+            <div class="controls">
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">🌓</button>
+                <select id="lang-switcher">
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                </select>
+            </div>
+            <button class="mobile-menu-btn">☰</button>
+        </nav>
+    </header>
+
+    <main id="app-content">
+        <section class="container page-section">
+            <h1 data-i18n="nav.publications">Publications</h1>
+
+            <!--
+                EN: Filter bar. Options for year / type / tag are
+                    filled in automatically by js/publications-all.js
+                    from whatever is in data/publications.json.
+                ES: Barra de filtros. Las opciones de año / tipo /
+                    etiqueta las rellena automáticamente
+                    js/publications-all.js a partir de lo que haya en
+                    data/publications.json.
+            -->
+            <div class="publications-filter-bar">
+                <input
+                    type="search"
+                    id="pub-search"
+                    class="pub-filter-control"
+                    data-i18n-placeholder="publications.searchPlaceholder"
+                    placeholder="Search by title, author or venue…"
+                >
+
+                <select id="pub-filter-year" class="pub-filter-control">
+                    <option value="" data-i18n="publications.filterYear">All years</option>
+                </select>
+
+                <select id="pub-filter-type" class="pub-filter-control">
+                    <option value="" data-i18n="publications.filterType">All types</option>
+                </select>
+
+                <select id="pub-filter-tag" class="pub-filter-control">
+                    <option value="" data-i18n="publications.filterTag">All tags</option>
+                </select>
+
+                <select id="pub-sort" class="pub-filter-control">
+                    <option value="date-desc" data-i18n="publications.sortDateDesc">Newest first</option>
+                    <option value="date-asc" data-i18n="publications.sortDateAsc">Oldest first</option>
+                    <option value="title-asc" data-i18n="publications.sortTitleAsc">Title (A–Z)</option>
+                </select>
+            </div>
+
+            <div id="publications-all-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> <span data-i18n="groupName"></span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

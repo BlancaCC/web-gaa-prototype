@@ -32,6 +32,9 @@
     "currentRole": "Current Position:",
     "thesis": "Thesis:"
   },
+  "publications": {
+    "viewAll": "View All Publications"
+  },
   "footer": {
     "rights": "All rights reserved."
   }

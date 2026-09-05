@@ -1,0 +1,617 @@
+[
+  {
+    "id": "companion-classification-losses-regression-problems-2023",
+    "relevant": false,
+    "title": "Companion Classification Losses for Regression Problems",
+    "authors": [
+      "Aitor Sánchez-Ferrera",
+      "Jose R. Dorronsoro"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems",
+    "year": 2023,
+    "date": "2023",
+    "type": "conference",
+    "tags": [
+      "regression",
+      "classification losses",
+      "deep learning"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1007/978-3-031-40725-3_19",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "robust-losses-deep-regression-2023",
+    "relevant": false,
+    "title": "Robust Losses in Deep Regression",
+    "authors": [
+      "Adrián Rubio",
+      "Jose R. Dorronsoro"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems",
+    "year": 2023,
+    "date": "2023",
+    "type": "conference",
+    "tags": [
+      "deep regression",
+      "robust loss functions",
+      "neural networks"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1007/978-3-031-40725-3_22",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "structure-learning-deep-multi-task-models-2023",
+    "relevant": false,
+    "title": "Structure Learning in Deep Multi-Task Models",
+    "authors": [
+      "Carlos Ruíz",
+      "Carlos M. Alaíz",
+      "José R. Dorronsoro"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems",
+    "year": 2023,
+    "date": "2023",
+    "type": "conference",
+    "tags": [
+      "multi-task learning",
+      "structure learning",
+      "deep learning"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1007/978-3-031-40725-3_23",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "multiscale-extensions-enhancing-coarse-grid-computations-2023",
+    "relevant": false,
+    "title": "Multiscale extensions for enhancing coarse grid computations",
+    "authors": [
+      "Neta Rabin",
+      "Ángela Fernández",
+      "Dalia Fishelov"
+    ],
+    "venue": "Journal of Computational and Applied Mathematics",
+    "year": 2023,
+    "date": "2023",
+    "type": "journal",
+    "tags": [
+      "multiscale methods",
+      "grid computations",
+      "applied mathematics"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1016/j.cam.2023.115116",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "functional-diffusion-maps-2023",
+    "relevant": false,
+    "title": "Functional diffusion maps",
+    "authors": [
+      "María Barroso",
+      "Carlos M. Alaíz",
+      "José L. Torrecilla",
+      "Ángela Fernández"
+    ],
+    "venue": "Statistics and Computing",
+    "year": 2023,
+    "date": "2023",
+    "type": "journal",
+    "tags": [
+      "diffusion maps",
+      "functional data analysis",
+      "dimensionality reduction"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1007/s11222-023-10332-1",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "parallel-predictive-entropy-search-multi-objective-bayesian-optimization-2023",
+    "relevant": false,
+    "title": "Parallel predictive entropy search for multi-objective Bayesian optimization with constraints applied to the tuning of machine learning algorithms",
+    "authors": [
+      "Eduardo C. Garrido-Merchán",
+      "Daniel Fernández-Sánchez",
+      "Daniel Hernández-Lobato"
+    ],
+    "venue": "Expert Systems with Applications",
+    "year": 2023,
+    "date": "2023",
+    "type": "journal",
+    "tags": [
+      "Bayesian optimization",
+      "multi-objective optimization",
+      "predictive entropy search",
+      "hyperparameter tuning"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1016/j.eswa.2022.119328",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "improved-max-value-entropy-search-multi-objective-bayesian-optimization-2023",
+    "relevant": false,
+    "title": "Improved max-value entropy search for multi-objective bayesian optimization with constraints",
+    "authors": [
+      "Daniel Fernández-Sánchez",
+      "Eduardo C. Garrido-Merchán",
+      "Daniel Hernández-Lobato"
+    ],
+    "venue": "Neurocomputing",
+    "year": 2023,
+    "date": "2023",
+    "type": "journal",
+    "tags": [
+      "Bayesian optimization",
+      "max-value entropy search",
+      "multi-objective optimization"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1016/j.neucom.2023.126290",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "gaussian-processes-missing-value-imputation-2023",
+    "relevant": false,
+    "title": "Gaussian processes for missing value imputation",
+    "authors": [
+      "Bahram Jafrasteh",
+      "Daniel Hernández-Lobato",
+      "Simón Pedro Lubián-López",
+      "Isabel Benavente-Fernández"
+    ],
+    "venue": "Knowledge-Based Systems",
+    "year": 2023,
+    "date": "2023",
+    "type": "journal",
+    "tags": [
+      "Gaussian processes",
+      "missing value imputation",
+      "data imputation"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1016/j.knosys.2023.110603",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "inference-radiative-transfer-models-variational-expectation-maximization-2023",
+    "relevant": false,
+    "title": "Inference over radiative transfer models using variational and expectation maximization methods",
+    "authors": [
+      "Daniel Heestermans Svendsen",
+      "Daniel Hernández-Lobato",
+      "Luca Martino",
+      "Valero Laparra",
+      "Álvaro Moreno-Martínez",
+      "Gustau Camps-Valls"
+    ],
+    "venue": "Machine Learning",
+    "year": 2023,
+    "date": "2023",
+    "type": "journal",
+    "tags": [
+      "radiative transfer models",
+      "variational inference",
+      "expectation maximization"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1007/s10994-021-05999-4",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "deep-variational-implicit-processes-2023",
+    "relevant": false,
+    "title": "Deep Variational Implicit Processes",
+    "authors": [
+      "Luis A. Ortega",
+      "Simón Rodríguez Santana",
+      "Daniel Hernández-Lobato"
+    ],
+    "venue": "International Conference on Learning Representations",
+    "year": 2023,
+    "date": "2023",
+    "type": "conference",
+    "tags": [
+      "variational inference",
+      "implicit processes",
+      "deep learning"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.48550/arXiv.2206.06720",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "efficient-transformed-gaussian-processes-non-stationary-icml-2023",
+    "relevant": false,
+    "title": "Efficient transformed gaussian processes for non-stationary dependent multi-class classification",
+    "authors": [
+      "J. Maroñas",
+      "D. Hernández-Lobato"
+    ],
+    "venue": "International Conference on Machine Learning",
+    "year": 2023,
+    "date": "2023",
+    "type": "conference",
+    "tags": [
+      "Gaussian processes",
+      "multi-class classification",
+      "non-stationary"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "gaussianization-la-icp-ms-features-calibration-forensic-glass-comparison-2023",
+    "relevant": false,
+    "title": "Gaussianization of LA-ICP_Ms features to improve calibration in forensic glass comparison",
+    "authors": [
+      "Pablo Ramírez-Hereda",
+      "Daniel Ramos",
+      "Juan Maroñas",
+      "Sergio Álvarez-Balanya",
+      "Jose Almiral"
+    ],
+    "venue": "Forensic Science International",
+    "year": 2023,
+    "date": "2023",
+    "type": "journal",
+    "tags": [
+      "gaussianization",
+      "forensic glass comparison",
+      "calibration"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1016/j.forsciint.2023.111735",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "efficient-transformed-gaussian-processes-non-stationary-arxiv-2023",
+    "relevant": false,
+    "title": "Efficient Transformed Gaussian Processes for non-stationary dependent multiclass classification",
+    "authors": [
+      "Juan Maroñas",
+      "Daniel Hernández-Lobato"
+    ],
+    "venue": "International Conference on Machine Learning",
+    "year": 2023,
+    "date": "2023",
+    "type": "conference",
+    "tags": [
+      "Gaussian processes",
+      "multiclass classification",
+      "non-stationary"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.48550/arXiv.2205.15008",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "sequential-training-neural-networks-gradient-boosting-2023",
+    "relevant": false,
+    "title": "Sequential Training of Neural Networks with Gradient Boosting",
+    "authors": [
+      "Seyedsaman Emami",
+      "Gonzalo Martínez-Muñoz"
+    ],
+    "venue": "IEEE Access",
+    "year": 2023,
+    "date": "2023",
+    "type": "journal",
+    "tags": [
+      "neural networks",
+      "gradient boosting",
+      "sequential training"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1109/ACCESS.2023.3271515",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "gradient-boosting-approach-training-convolutional-deep-neural-networks-2023",
+    "relevant": false,
+    "title": "A Gradient Boosting Approach for Training Convolutional and Deep Neural Networks",
+    "authors": [
+      "Seyedsaman Emami",
+      "Gonzalo Martínez-Muñoz"
+    ],
+    "venue": "IEEE Open Journal of Signal Processing",
+    "year": 2023,
+    "date": "2023",
+    "type": "journal",
+    "tags": [
+      "gradient boosting",
+      "convolutional neural networks",
+      "deep neural networks"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1109/OJSP.2023.3279011",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "multi-task-gradient-boosting-2023",
+    "relevant": false,
+    "title": "Multi-Task Gradient Boosting",
+    "authors": [
+      "Seyedsaman Emami",
+      "Carlos Ruíz-Pastor",
+      "Gonzalo Martínez-Muñoz"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems",
+    "year": 2023,
+    "date": "2023",
+    "type": "conference",
+    "tags": [
+      "multi-task learning",
+      "gradient boosting",
+      "machine learning"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1007/978-3-031-40725-3_9",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "autonomous-ground-robot-support-firefighters-interventions-indoor-emergencies-2023",
+    "relevant": false,
+    "title": "An autonomous ground robot to support firefighters' interventions in indoor emergencies",
+    "authors": [
+      "N. F. Talavera",
+      "J. J. Roldán-Gómez",
+      "F. Martín",
+      "M. C. Rodríguez-Sánchez"
+    ],
+    "venue": "Journal of Field Robotics",
+    "year": 2023,
+    "date": "2023",
+    "type": "journal",
+    "tags": [
+      "autonomous robots",
+      "field robotics",
+      "emergency response"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "fuzzy-c-means-differences-clustering-behavior-high-dimensional-functional-data-2023",
+    "relevant": false,
+    "title": "Fuzzy C-means: Differences on Clustering Behavior between High Dimensional and Functional Data (Student Abstract)",
+    "authors": [
+      "C. Ramos-Carreño"
+    ],
+    "venue": "Proceedings of the Thirty-seventh AAAI Conference on Artificial Intelligence",
+    "year": 2023,
+    "date": "2023",
+    "type": "conference",
+    "tags": [
+      "fuzzy c-means",
+      "clustering",
+      "functional data analysis"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "machine-learning-methods-estimate-observational-properties-galaxy-clusters-2023",
+    "relevant": false,
+    "title": "Machine learning methods to estimate observational properties of galaxy clusters in large volume cosmological N-body simulations",
+    "authors": [
+      "D. de Andres",
+      "G. Yepes",
+      "F. Sembolini",
+      "G. Martínez-Muñoz",
+      "W. Cui",
+      "F. Robledo",
+      "C.-H. Chuang",
+      "E. Rasia"
+    ],
+    "venue": "Monthly Notices of the Royal Astronomical Society",
+    "year": 2023,
+    "date": "2023",
+    "type": "journal",
+    "tags": [
+      "machine learning",
+      "astrophysics",
+      "galaxy clusters",
+      "cosmological simulations"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  }
+]

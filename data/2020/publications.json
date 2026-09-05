@@ -1,0 +1,514 @@
+[
+  {
+    "id": "benitez2020data",
+    "relevant": false,
+    "title": "Data-Driven Democracy? Automated Decision-Making, Difference and Preferences.",
+    "authors": [
+      "Benítez, Jesus",
+      "Margarita Gómez-Reino",
+      "Alberto Suárez"
+    ],
+    "venue": "APSA Preprints",
+    "year": 2020,
+    "date": "2020",
+    "type": "preprint",
+    "tags": [
+      "AI Ethics"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.33774/apsa-2020-rx8fs"
+    }
+  },
+  {
+    "id": "alaiz2020visualization",
+    "relevant": false,
+    "title": "Visualization of the Feature Space of Neural Networks.",
+    "authors": [
+      "Carlos M. Alaíz",
+      "Ángela Fernández",
+      "José R. Dorronsoro"
+    ],
+    "venue": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning",
+    "year": 2020,
+    "date": "2020",
+    "type": "conference",
+    "tags": [
+      "Neural Networks"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "bella2020supervised",
+    "relevant": false,
+    "title": "Supervised Hyperparameter Estimation for Anomaly Detection.",
+    "authors": [
+      "Juan Bella",
+      "Ángela Fernández",
+      "José R. Dorronsoro"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems",
+    "year": 2020,
+    "date": "2020",
+    "type": "conference",
+    "tags": [
+      "Anomaly Detection"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-030-61705-9_20"
+    }
+  },
+  {
+    "id": "fernandez2020autoadaptive",
+    "relevant": false,
+    "title": "Auto-adaptive multi-scale Laplacian Pyramids for modeling non-uniform data.",
+    "authors": [
+      "Ángela Fernández",
+      "Neta Rabin",
+      "Dalia Fishelov",
+      "José R. Dorronsoro"
+    ],
+    "venue": "Engineering Applications of Artificial Intelligence",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Pyramidal Models"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1016/j.engappai.2020.103682"
+    }
+  },
+  {
+    "id": "diaz2020deep",
+    "relevant": false,
+    "title": "Deep support vector neural networks.",
+    "authors": [
+      "David Díaz-Vico",
+      "Jesús Prada Alonso",
+      "Adil Omari",
+      "José R. Dorronsoro"
+    ],
+    "venue": "Integrated Computer Aided Engineering",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Support Vector Machines"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.3233/ICA-200635"
+    }
+  },
+  {
+    "id": "villacampa2020alpha",
+    "relevant": false,
+    "title": "Alpha divergence minimization in multi-class Gaussian process classification.",
+    "authors": [
+      "Villacampa-Calvo C.",
+      "Hernández-Lobato D."
+    ],
+    "venue": "Neurocomputing",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Gaussian Processes"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1016/j.neucom.2019.09.090"
+    }
+  },
+  {
+    "id": "hernandez2020deep",
+    "relevant": false,
+    "title": "Deep gaussian processes using expectation propagation and monte carlo methods.",
+    "authors": [
+      "Hernández-Muñoz G.",
+      "Villacampa-Calvo C.",
+      "Hernández-Lobato D."
+    ],
+    "venue": "ECML-PKDD",
+    "year": 2020,
+    "date": "2020",
+    "type": "conference",
+    "tags": [
+      "Gaussian Processes"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-030-67664-3_29"
+    }
+  },
+  {
+    "id": "bentejac2020comparative",
+    "relevant": false,
+    "title": "A comparative analysis of gradient boosting algorithms.",
+    "authors": [
+      "Bentéjac, Candice",
+      "Csorgo, Anna",
+      "Martínez-Muñoz, Gonzalo"
+    ],
+    "venue": "Artificial Intelligence Review",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Gradient Boosting"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/s10462-020-09896-5"
+    }
+  },
+  {
+    "id": "valerio2020machine",
+    "relevant": false,
+    "title": "A machine learning model to assess the ecosystem response to water policy measures in the Tagus River Basin (Spain).",
+    "authors": [
+      "Carlotta Valerio",
+      "Lucia De Stefano",
+      "Gonzalo Martínez-Muñoz",
+      "Alberto Garrido"
+    ],
+    "venue": "Science of The Total Environment",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Applied Machine Learning"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1016/j.scitotenv.2020.141252"
+    }
+  },
+  {
+    "id": "sangalli2020identifying",
+    "relevant": false,
+    "title": "Identifying cheating users in online courses.",
+    "authors": [
+      "Sangalli, V.A.",
+      "Martínez-Muñoz, G.",
+      "Canabate, E.P."
+    ],
+    "venue": "IEEE Global Engineering Education Conference, EDUCON",
+    "year": 2020,
+    "date": "2020",
+    "type": "conference",
+    "tags": [
+      "Applied Machine Learning"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1109/EDUCON45650.2020.9125252"
+    }
+  },
+  {
+    "id": "garrido2020uncertainty",
+    "relevant": false,
+    "title": "Uncertainty Weighted Causal Graphs.",
+    "authors": [
+      "Eduardo C. Garrido-Merchán",
+      "Cristina Puente",
+      "Alejandro Sobrino",
+      "Jose Angel Olivas"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems, (HAIS)",
+    "year": 2020,
+    "date": "2020",
+    "type": "conference",
+    "tags": [
+      "Probabilistic Machine Learning"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "garrido2020fake",
+    "relevant": false,
+    "title": "Fake News Detection by means of Uncertainty Weighted Causal Graphs.",
+    "authors": [
+      "Eduardo C. Garrido-Merchán",
+      "Cristina Puente",
+      "Rafael Palacios"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems, (HAIS)",
+    "year": 2020,
+    "date": "2020",
+    "type": "conference",
+    "tags": [
+      "Natural Language Processing"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "garrido2020machine",
+    "relevant": false,
+    "title": "A Machine Consciousness Architecture based on Deep Learning and Gaussian Processes.",
+    "authors": [
+      "Eduardo C. Garrido-Merchán",
+      "Martín Molina"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems, (HAIS)",
+    "year": 2020,
+    "date": "2020",
+    "type": "conference",
+    "tags": [
+      "Gaussian Processes"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "garrido2020dealing",
+    "relevant": false,
+    "title": "Dealing with categorical and integer-valued variables in Bayesian optimization with Gaussian processes.",
+    "authors": [
+      "E. C. Garrido-Merchán",
+      "D. Hernández-Lobato"
+    ],
+    "venue": "Neurocomputing",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Bayesian Optimization"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "ruiz2020convex",
+    "relevant": false,
+    "title": "Convex Graph Laplacian Multi-Task Learning SVM.",
+    "authors": [
+      "C. Ruiz",
+      "C. M. Alaíz",
+      "J. R. Dorronsoro"
+    ],
+    "venue": "International Conference on Artificial Neural Networks",
+    "year": 2020,
+    "date": "2020",
+    "type": "conference",
+    "tags": [
+      "Multi-Task Learning"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "catalina2020combining",
+    "relevant": false,
+    "title": "Combining numerical weather predictions and satellite data for PV energy nowcasting.",
+    "authors": [
+      "A. Catalina",
+      "C. M. Alaíz",
+      "J. R. Dorronsoro"
+    ],
+    "venue": "IEEE Transactions on Sustainable Energy",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Time Series Forecasting"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "catalina2020machine",
+    "relevant": false,
+    "title": "Machine learning nowcasting of PV energy using satellite data.",
+    "authors": [
+      "A. Catalina",
+      "A. Torres-Barrán",
+      "C. M. Alaíz",
+      "J. R. Dorronsoro"
+    ],
+    "venue": "Neural Processing Letters",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Time Series Forecasting"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "martin2020design",
+    "relevant": false,
+    "title": "Design of a hyper-redundant robot and teleoperation using mixed reality for inspection tasks.",
+    "authors": [
+      "J. Martín-Barrio",
+      "J. J. Roldán-Gómez",
+      "I. Rodríguez",
+      "J. Del Cerro",
+      "A. Barrientos"
+    ],
+    "venue": "Sensors",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Robotics & Swarms"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "lima2020monitoring",
+    "relevant": false,
+    "title": "Monitoring plant status and fertilization strategy through multispectral images.",
+    "authors": [
+      "M. C. F. Lima",
+      "A. Krus",
+      "C. Valero",
+      "A. Barrientos",
+      "J. Del Cerro",
+      "J. J. Roldán-Gómez"
+    ],
+    "venue": "Sensors",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Computer Vision"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "martin2020application",
+    "relevant": false,
+    "title": "Application of immersive technologies and natural language to hyper-redundant robot teleoperation.",
+    "authors": [
+      "J. Martín-Barrio",
+      "J. J. Roldán-Gómez",
+      "S. Terrile",
+      "J. Del Cerro",
+      "A. Barrientos"
+    ],
+    "venue": "Virtual Reality",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Robotics & Swarms"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "lopez2020modified",
+    "relevant": false,
+    "title": "Modified grid searches for hyper-parameter optimization.",
+    "authors": [
+      "D. López",
+      "C. M. Alaíz",
+      "J. R. Dorronsoro"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems",
+    "year": 2020,
+    "date": "2020",
+    "type": "conference",
+    "tags": [
+      "Optimization Algorithms"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "roldan2020review",
+    "relevant": false,
+    "title": "A review on multi-robot systems: current challenges for operators and new developments of interfaces.",
+    "authors": [
+      "J. J. Roldán-Gómez",
+      "J. De León Rivas",
+      "P. García-Auñón",
+      "A. Barrientos"
+    ],
+    "venue": "Revista Iberoamericana de Automática e Informática Industrial",
+    "year": 2020,
+    "date": "2020",
+    "type": "journal",
+    "tags": [
+      "Robotics & Swarms"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  }
+]

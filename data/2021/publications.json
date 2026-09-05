@@ -1,0 +1,577 @@
+[
+  {
+    "id": "torrecilla2021optimal",
+    "relevant": false,
+    "title": "Optimal classification of Gaussian processes in homo- and heteroscedastic settings.",
+    "authors": [
+      "Torrecilla, J.L.",
+      "Ramos-Carreño, C.",
+      "Sánchez-Montañés, M."
+    ],
+    "venue": "Stat Comput",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Gaussian Processes"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/s11222-020-09937-7"
+    }
+  },
+  {
+    "id": "ramos2021scikit",
+    "relevant": false,
+    "title": "scikit-fda: A Python package for Functional Data Analysis.",
+    "authors": [
+      "RAMOS-CARREÑO, Carlos",
+      "TORRECILLA, José Luis",
+      "SUÁREZ, Alberto"
+    ],
+    "venue": "International Workshop on Functional and Operational Statistics",
+    "year": 2021,
+    "date": "2021",
+    "type": "conference",
+    "tags": [
+      "Functional Data Analysis"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "pdf": "https://iwfos2020.sci.muni.cz/media/3326670/iwfos2021-book-of-abstracts.pdf"
+    }
+  },
+  {
+    "id": "jafrasteh2021objective",
+    "relevant": false,
+    "title": "Objective functions from Bayesian optimization to locate additional drillholes.",
+    "authors": [
+      "Bahram Jafrasteh",
+      "Alberto Suárez"
+    ],
+    "venue": "Computers & Geosciences",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Bayesian Optimization"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1016/j.cageo.2020.104674"
+    }
+  },
+  {
+    "id": "ruiz2021adaptive",
+    "relevant": false,
+    "title": "Adaptive Graph Laplacian for Convex Multi-Task Learning SVM.",
+    "authors": [
+      "Ruíz C.",
+      "Alaíz C.",
+      "Dorronsoro J."
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems",
+    "year": 2021,
+    "date": "2021",
+    "type": "conference",
+    "tags": [
+      "Support Vector Machines"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-030-86271-8_19"
+    }
+  },
+  {
+    "id": "ruiz2021convex",
+    "relevant": false,
+    "title": "Convex Formulation for Multi-Task L1-, L2-, and LS-SVMs.",
+    "authors": [
+      "Ruíz C.",
+      "Alaíz C.",
+      "Dorronsoro J."
+    ],
+    "venue": "Neurocomputing",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Multi-Task Learning"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1016/j.neucom.2021.01.137"
+    }
+  },
+  {
+    "id": "mehriz2021identifies",
+    "relevant": false,
+    "title": "Identifies Polyps in Real Time With Accuracy 96.67% in Screening Colonoscopy Using Convolutional Neural Networks(CNN).",
+    "authors": [
+      "Hadi Abooei Mehriz"
+    ],
+    "venue": "2nd PhD Research Symposium in Health Sciences and Biomedicine",
+    "year": 2021,
+    "date": "2021",
+    "type": "conference",
+    "tags": [
+      "Computer Vision"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "diaz2021companion",
+    "relevant": false,
+    "title": "Companion Losses for Deep Neural Networks.",
+    "authors": [
+      "David Díaz-Vico",
+      "Ángela Fernández",
+      "José R. Dorronsoro"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems",
+    "year": 2021,
+    "date": "2021",
+    "type": "conference",
+    "tags": [
+      "Loss Functions"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-030-86271-8_45"
+    }
+  },
+  {
+    "id": "barroso2021super",
+    "relevant": false,
+    "title": "Super Local Models for Wind Power Detection.",
+    "authors": [
+      "María Barroso",
+      "Ángela Fernández"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems",
+    "year": 2021,
+    "date": "2021",
+    "type": "conference",
+    "tags": [
+      "Time Series Forecasting"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-030-86271-8_29"
+    }
+  },
+  {
+    "id": "ruiz2021multitask",
+    "relevant": false,
+    "title": "Multitask SVR Models for Solar and Wind Energy Prediction.",
+    "authors": [
+      "Ruíz C.",
+      "Alaíz C.",
+      "Dorronsoro J."
+    ],
+    "venue": "Energies",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Multi-Task Learning"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.3390/en13236308"
+    }
+  },
+  {
+    "id": "garrido2021transhumanismo",
+    "relevant": false,
+    "title": "Transhumanismo y Consciencia Fenoménica.",
+    "authors": [
+      "Eduardo C. Garrido Merchán"
+    ],
+    "venue": "Congreso Razón Abierta 2021. Universidad Francisco de Vitoria",
+    "year": 2021,
+    "date": "2021",
+    "type": "conference",
+    "tags": [
+      "AI Ethics"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "asencio2021similarity",
+    "relevant": false,
+    "title": "A Similarity Measure of Gaussian Process Predictive Distributions.",
+    "authors": [
+      "Asencio-Martín, L.",
+      "Garrido-Merchán, E."
+    ],
+    "venue": "Lecture Notes in Artificial Intelligence (CAEPIA 2021)",
+    "year": 2021,
+    "date": "2021",
+    "type": "conference",
+    "tags": [
+      "Gaussian Processes"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "balazs2021comparison",
+    "relevant": false,
+    "title": "A comparison of optimisation algorithms for high-dimensional particle and astrophysics applications.",
+    "authors": [
+      "Balázs, C.",
+      "van Beekveld, M.",
+      "Caron, S.",
+      "Dillon, B. M.",
+      "Farmer, B.",
+      "Fowlie, A.",
+      "Garrido-Merchán, Eduardo C.",
+      "White, M."
+    ],
+    "venue": "Journal of High Energy Physics",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Optimization Algorithms"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "villacampa2021multiclass",
+    "relevant": false,
+    "title": "Multi-class Gaussian Process Classification with Noisy Inputs.",
+    "authors": [
+      "Villacampa-Calvo, C.",
+      "Zaldivar, B.",
+      "Garrido-Merchán, E. C.",
+      "Hernández-Lobato, D."
+    ],
+    "venue": "Journal of Machine Learning Research",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Gaussian Processes"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "jariego2021towards",
+    "relevant": false,
+    "title": "Towards Automatic Bayesian Optimization: A first step involving acquisition functions.",
+    "authors": [
+      "Jariego-Pérez, L. C.",
+      "Garrido-Merchán, E. C."
+    ],
+    "venue": "Lecture Notes in Artificial Intelligence (CAEPIA 2021)",
+    "year": 2021,
+    "date": "2021",
+    "type": "conference",
+    "tags": [
+      "Bayesian Optimization"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "gonzalez2021comparing",
+    "relevant": false,
+    "title": "Comparing BERT against traditional machine learning text classification.",
+    "authors": [
+      "González-Carvajal, S.",
+      "Garrido-Merchán, E. C."
+    ],
+    "venue": "Proceedings of the XIX Conferencia de la Asociación Española para la Inteligencia Artificial (CAEPIA 2021)",
+    "year": 2021,
+    "date": "2021",
+    "type": "conference",
+    "tags": [
+      "Natural Language Processing"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "sobrino2021fuzzy",
+    "relevant": false,
+    "title": "Fuzzy Stochastic Timed Petri Nets for Causal Properties Representation.",
+    "authors": [
+      "Sobrino, A.",
+      "Garrido-Merchán, E. C.",
+      "Puente, C."
+    ],
+    "venue": "Journal of New Mathematics and Natural Computation",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Theoretical AI"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "morales2021activation",
+    "relevant": false,
+    "title": "Activation-level uncertainty in deep neural networks.",
+    "authors": [
+      "Pablo Morales-Alvarez",
+      "Daniel Hernández-Lobato",
+      "Rafael Molina",
+      "José Miguel Hernández-Lobato"
+    ],
+    "venue": "ICLR",
+    "year": 2021,
+    "date": "2021",
+    "type": "conference",
+    "tags": [
+      "Uncertainty Estimation"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "pdf": "https://openreview.net/forum?id=UvBPbpvHRj-"
+    }
+  },
+  {
+    "id": "gomez2021importance",
+    "relevant": false,
+    "title": "Importance Weighted Adversarial Variational Bayes.",
+    "authors": [
+      "Marta Gómez-Sancho",
+      "Daniel Hernández-Lobato"
+    ],
+    "venue": "HAIS",
+    "year": 2021,
+    "date": "2021",
+    "type": "conference",
+    "tags": [
+      "Bayesian Inference"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-030-61705-9_31"
+    }
+  },
+  {
+    "id": "rodriguez2021adversarial",
+    "relevant": false,
+    "title": "Adversarial α-divergence minimization for Bayesian approximate inference.",
+    "authors": [
+      "Simón Rodríguez Santana",
+      "Daniel Hernández-Lobato"
+    ],
+    "venue": "Neurocomputing",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Bayesian Inference"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1016/j.neucom.2020.09.076"
+    }
+  },
+  {
+    "id": "svendsen2021inference",
+    "relevant": false,
+    "title": "Inference over radiative transfer models using variational and expectation maximization methods.",
+    "authors": [
+      "Daniel Heestermans Svendsen",
+      "Daniel Hernández-Lobato",
+      "Luca Martino",
+      "Valero Laparra",
+      "Álvaro Moreno-Martínez",
+      "Gustau Camps-Valls"
+    ],
+    "venue": "Machine Learning",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Variational Inference"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/s10994-021-05999-4"
+    }
+  },
+  {
+    "id": "aldama2021classifying",
+    "relevant": false,
+    "title": "Classifying Spanish se constructions: from bag of words to language models.",
+    "authors": [
+      "Nuria Aldama García",
+      "Álvaro Barbero Jiménez"
+    ],
+    "venue": "Procesamiento del Lenguaje Natural",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Natural Language Processing"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "pdf": "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6331"
+    }
+  },
+  {
+    "id": "torres2021faster",
+    "relevant": false,
+    "title": "Faster SVM training via conjugate SMO.",
+    "authors": [
+      "A. Torres-Barrán",
+      "C. M. Alaíz",
+      "J. R. Dorronsoro"
+    ],
+    "venue": "Pattern Recognition",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Support Vector Machines"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "garcia2021aplicaciones",
+    "relevant": false,
+    "title": "Aplicaciones prácticas de los sistemas multi-UAV y enjambres aéreos.",
+    "authors": [
+      "P. García-Auñón",
+      "J. J. Roldán-Gómez",
+      "J. De León",
+      "J. Del Cerro",
+      "A. Barrientos"
+    ],
+    "venue": "Revista Iberoamericana de Automática e Informática Industrial",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Robotics & Swarms"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "roldan2021survey",
+    "relevant": false,
+    "title": "A survey on robotic technologies for forest firefighting: Applying drone swarms to improve firefighters’ efficiency and safety.",
+    "authors": [
+      "J. J. Roldán-Gómez",
+      "E. González-Gironda",
+      "A. Barrientos"
+    ],
+    "venue": "Applied Sciences",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Robotics & Swarms"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "roldan2021special",
+    "relevant": false,
+    "title": "Special issue on multi-robot systems: Challenges, trends, and applications.",
+    "authors": [
+      "J. J. Roldán-Gómez",
+      "A. Barrientos"
+    ],
+    "venue": "Applied Sciences",
+    "year": 2021,
+    "date": "2021",
+    "type": "journal",
+    "tags": [
+      "Robotics & Swarms"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  }
+]

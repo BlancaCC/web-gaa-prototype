@@ -5,6 +5,13 @@ import { renderEvents } from './events.js';
 // EN: NEW — renders the "Research" topic cards from data/research.json.
 // ES: NUEVO — renderiza las tarjetas de temas de "Research" a partir de data/research.json.
 import { renderResearch } from './research.js';
+// EN: NEW — publications teaser (index.html) and full filterable view (publications.html).
+//     Both guard on their container's existence, so it's safe to call both on every page.
+// ES: NUEVO — avance de publicaciones (index.html) y vista completa con filtros
+//     (publications.html). Ambas comprueban que su contenedor exista, así que es
+//     seguro llamarlas en cualquier página.
+import { renderPublications } from './publications.js';
+import { renderPublicationsAll } from './publications-all.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
     // 1. Dynamic Footer Year
@@ -59,4 +66,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     // EN: Render the research topic cards (see js/research.js and data/research.json).
     // ES: Renderiza las tarjetas de temas de investigación (ver js/research.js y data/research.json).
     renderResearch();
+    // EN: Render publications — the teaser on index.html, the full
+    //     filterable list on publications.html (see comment above).
+    // ES: Renderiza publicaciones — el avance en index.html, la
+    //     lista completa con filtros en publications.html (ver comentario arriba).
+    renderPublications();
+    renderPublicationsAll();
 });

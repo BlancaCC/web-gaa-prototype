@@ -160,3 +160,124 @@ No code changes are needed to add, edit, or remove a topic — just edit this JS
     }
 }
 ```
+
+## Publications / Publicaciones
+
+**EN:** Publications are split into one JSON file per year, plus a small index file that says which years exist:
+
+**ES:** Las publicaciones están divididas en un fichero JSON por año, más un pequeño fichero índice que indica qué años existen:
+
+```
+data/
+  publications-years.json     <- ["2026", "2025", "2024", "2023"]
+  2026/
+    publications.json
+  2025/
+    publications.json
+  2024/
+    publications.json
+  2023/
+    publications.json
+```
+
+**EN:** `data/publications-years.json` is the ONLY place that lists which years exist — this is what makes the year "variable": add a new year whenever you need it, and the site picks it up automatically without any code changes.
+
+**ES:** `data/publications-years.json` es el ÚNICO sitio que lista qué años existen — esto es lo que hace que el año sea "variable": añade un año nuevo cuando lo necesites, y el sitio lo detecta automáticamente sin cambiar código.
+
+They appear in TWO places / Aparecen en DOS sitios:
+
+1. **Main page / Página principal** (`index.html`, "Publications" section) — only shows the publications with **`"relevant": true`** (from any year), sorted newest first, one per row, followed by a "View all publications" link.
+   *(Solo muestra las publicaciones con **`"relevant": true`** (de cualquier año), ordenadas de más reciente a más antigua, una por fila, seguidas de un enlace "Ver todas las publicaciones".)*
+2. **Full view / Vista completa** (`publications.html`) — shows **every** publication from **every** year, with a search box and filters by year, type and tag, plus a sort order selector (newest first / oldest first / title A–Z). Filter options are built automatically from whatever is in the data — you never need to edit any `.js` file to add a new year, type or tag.
+   *(Muestra **todas** las publicaciones de **todos** los años, con un buscador y filtros por año, tipo y etiqueta, además de un selector de orden (más recientes primero / más antiguas primero / título A–Z). Las opciones de los filtros se generan automáticamente a partir de lo que haya en los datos — nunca hace falta editar ningún fichero `.js` para añadir un año, tipo o etiqueta nuevo.)*
+
+No code changes are needed to add, edit or remove a publication — just edit the JSON files.
+*(No es necesario tocar código para añadir, editar o eliminar una publicación — basta con editar los ficheros JSON.)*
+
+### Adding a publication to an existing year / Añadir una publicación a un año existente
+
+1. Open `data/<year>/publications.json` (e.g. `data/2026/publications.json`).
+   *(Abre `data/<año>/publications.json`, p. ej. `data/2026/publications.json`.)*
+2. Copy an existing publication object as a template, paste it as a new array entry, and fill in the fields below.
+   *(Copia un objeto de publicación existente como plantilla, pégalo como nueva entrada del array, y rellena los campos de abajo.)*
+
+### Adding a brand-new year / Añadir un año completamente nuevo
+
+1. Create a new folder under `data/`, named exactly the year, e.g. `data/2027/`.
+   *(Crea una carpeta nueva bajo `data/`, con el nombre exacto del año, p. ej. `data/2027/`.)*
+2. Inside it, create `publications.json` containing a JSON array (start with `[]` if empty, or copy the shape from another year's file).
+   *(Dentro, crea `publications.json` con un array JSON — empieza con `[]` si está vacío, o copia la forma de otro fichero de año.)*
+3. Add `2027` to the list in `data/publications-years.json`.
+   *(Añade `2027` a la lista en `data/publications-years.json`.)*
+4. Save — no build step or restart is required.
+   *(Guarda — no hace falta compilar ni reiniciar nada.)*
+
+- **Tip:** each publication's `year` field is optional now — if you leave it out, it's automatically filled in from the folder it's stored in. It's still useful to set it explicitly if a publication needs to be sorted/filed under a different year than its folder (rare, but supported).
+  *(Consejo: el campo `year` de cada publicación ahora es opcional — si lo omites, se rellena automáticamente con el de la carpeta donde está guardada. Sigue siendo útil ponerlo explícitamente si una publicación necesita ordenarse/archivarse bajo un año distinto al de su carpeta — algo raro, pero compatible.)*
+
+### Field reference / Referencia de campos
+
+| Field / Campo | Required / Obligatorio | Type / Tipo | Description (EN) | Descripción (ES) |
+|---|---|---|---|---|
+| `id` | ✅ | string | Unique identifier (e.g. `"coco-loss-2026"`). | Identificador único (p. ej. `"coco-loss-2026"`). |
+| `relevant` | ✅ | boolean | `true` to show it on the main-page teaser, `false` to only show it in the full view. | `true` para mostrarla en el avance de la página principal, `false` para mostrarla solo en la vista completa. |
+| `title` | ✅ | string | The publication title, as published (not translated). | El título de la publicación, tal como se publicó (no se traduce). |
+| `authors` | ⬜ | string[] | List of author names, in order. | Lista de nombres de autores, en orden. |
+| `venue` | ⬜ | string | Journal / conference / thesis institution, etc. | Revista / congreso / institución de la tesis, etc. |
+| `year` | ✅ | number | Publication year — used for sorting and for the year filter. | Año de publicación — se usa para ordenar y para el filtro de año. |
+| `date` | ⬜ | string (`YYYY-MM-DD`) | Exact date, if known. When present it's used instead of `year` for more precise sorting. | Fecha exacta, si se conoce. Si está presente, se usa en lugar de `year` para un orden más preciso. |
+| `type` | ⬜ | string | One of `journal`, `conference`, `workshop`, `preprint`, `thesis`, `book-chapter`, or any custom value. Known values get a nice translated label automatically; unknown ones are shown capitalised. | Uno de `journal`, `conference`, `workshop`, `preprint`, `thesis`, `book-chapter`, o cualquier valor personalizado. Los valores conocidos obtienen una etiqueta traducida automáticamente; los desconocidos se muestran capitalizados. |
+| `tags` | ⬜ | string[] | Keywords, also used to populate the tag filter. | Palabras clave, también se usan para rellenar el filtro de etiquetas. |
+| `abstract` | ⬜ | string or `{ en, es }` | Short summary shown under the venue/year line. | Resumen corto que se muestra bajo la línea de revista/año. |
+| `links` | ⬜ | object | **Fully flexible** — any key is allowed. Common keys (`pdf`, `doi`, `arxiv`, `code`, `dataset`, `slides`, `video`, `poster`, `bibtex`) get a nice label automatically; any other key still renders fine, capitalised. Set a key to `null` (or omit it) to hide that link. | **Totalmente flexible** — se admite cualquier clave. Las claves comunes (`pdf`, `doi`, `arxiv`, `code`, `dataset`, `slides`, `video`, `poster`, `bibtex`) obtienen una etiqueta bonita automáticamente; cualquier otra clave también se muestra bien, capitalizada. Pon una clave a `null` (u omítela) para ocultar ese enlace. |
+
+### Example entry / Ejemplo
+
+Inside the `data/<year>/publications.json`
+
+```json
+{
+    "id": "example-2026",
+    "relevant": true,
+    "title": "An Example Publication Title",
+    "authors": ["A. Author", "B. Author"],
+    "venue": "Example Journal",
+    "year": 2026,
+    "date": "2026-03-15",
+    "type": "journal",
+    "tags": ["generative ai"],
+    "abstract": {
+        "en": "A short abstract in English.",
+        "es": "Un resumen breve en español."
+    },
+    "links": {
+        "pdf": "publications/pdf/example-2026.pdf",
+        "arxiv": "https://arxiv.org/abs/0000.00000",
+        "code": "https://github.com/example-org/example-repo"
+    }
+}
+```
+
+### Required translation keys / Claves de traducción necesarias
+
+**EN:** `publications.js` / `publications-all.js` use a few new `data-i18n` keys for static labels (search placeholder, filter defaults, sort options, messages). Your `i18n.js` / locale files weren't part of what I could see, so please add these keys wherever `nav.people`, `btn.learnMore`, etc. currently live:
+
+**ES:** `publications.js` / `publications-all.js` usan algunas claves `data-i18n` nuevas para las etiquetas estáticas (placeholder de búsqueda, valores por defecto de los filtros, opciones de orden, mensajes). No tenía acceso a tu `i18n.js` / ficheros de idioma, así que añade estas claves donde ya vivan `nav.people`, `btn.learnMore`, etc.:
+
+| Key / Clave | English | Español |
+|---|---|---|
+| `publications.viewAll` | View all publications → | Ver todas las publicaciones → |
+| `publications.back` | ← Back to home | ← Volver al inicio |
+| `publications.searchPlaceholder` | Search by title, author or venue… | Buscar por título, autor o revista… |
+| `publications.filterYear` | All years | Todos los años |
+| `publications.filterType` | All types | Todos los tipos |
+| `publications.filterTag` | All tags | Todas las etiquetas |
+| `publications.sortDateDesc` | Newest first | Más recientes primero |
+| `publications.sortDateAsc` | Oldest first | Más antiguas primero |
+| `publications.sortTitleAsc` | Title (A–Z) | Título (A–Z) |
+| `publications.noResults` | No publications match your filters. | Ninguna publicación coincide con tus filtros. |
+| `publications.noItems` | No publications yet. | Aún no hay publicaciones. |
+
+**EN:** Note: the search box uses `data-i18n-placeholder` for its placeholder text. If your `applyTranslations()` only translates `textContent` (not placeholders), the placeholder will simply stay in English — harmless, but let me know if you'd like that extended.
+
+**ES:** Nota: el buscador usa `data-i18n-placeholder` para el texto del placeholder. Si tu `applyTranslations()` solo traduce `textContent` (no placeholders), el placeholder simplemente se quedará en inglés — inofensivo, pero avísame si quieres que lo extienda.

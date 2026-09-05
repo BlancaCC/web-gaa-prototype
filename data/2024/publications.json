@@ -1,0 +1,489 @@
+[
+  {
+    "id": "cold-posterior-effect-indicates-underfitting-2024",
+    "relevant": false,
+    "title": "The Cold Posterior Effect Indicates Underfitting, and Cold Posteriors Represent a Fully Bayesian Method to Mitigate It",
+    "authors": [
+      "Yijie Zhang",
+      "Yi-Shan Wu",
+      "Luis A. Ortega",
+      "Andrés R. Masegosa"
+    ],
+    "venue": "Transactions on Machine Learning Research (TMLR)",
+    "year": 2024,
+    "date": "2024",
+    "type": "journal",
+    "tags": [
+      "cold posteriors",
+      "underfitting",
+      "Bayesian deep learning"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": "https://openreview.net/pdf?id=GZORXGxHHT",
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "variational-linearized-laplace-approximation-bayesian-deep-learning-2024",
+    "relevant": false,
+    "title": "Variational Linearized Laplace Approximation for Bayesian Deep Learning",
+    "authors": [
+      "Luis A. Ortega",
+      "Simon Rodriguez Santana",
+      "Daniel Hernández-Lobato"
+    ],
+    "venue": "International Conference on Machine Learning (ICML)",
+    "year": 2024,
+    "date": "2024",
+    "type": "conference",
+    "tags": [
+      "Laplace approximation",
+      "variational inference",
+      "Bayesian deep learning"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "pac-bayes-chernoff-bounds-unbounded-losses-2024",
+    "relevant": false,
+    "title": "PAC-Bayes-Chernoff Bounds for Unbounded Losses",
+    "authors": [
+      "Ioar Casado",
+      "Luis A. Ortega",
+      "Aritz Pérez",
+      "Andrés R. Masegosa"
+    ],
+    "venue": "Neural Information Processing Systems (NeurIPS)",
+    "year": 2024,
+    "date": "2024",
+    "type": "conference",
+    "tags": [
+      "PAC-Bayes",
+      "generalization bounds",
+      "unbounded losses"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "video-visualization-profile-analysis-online-courses-2024",
+    "relevant": false,
+    "title": "Video Visualization Profile Analysis in Online Courses",
+    "authors": [
+      "Gonzalo Martínez-Muñoz",
+      "Miguel A. Álvarez-Rodríguez",
+      "Estrella Pulido-Cañabate"
+    ],
+    "venue": "IEEE Transactions on Education",
+    "year": 2024,
+    "date": "2024",
+    "type": "journal",
+    "tags": [
+      "learning analytics",
+      "educational technology",
+      "online learning"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1109/TE.2024.3396296",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "scikit-fda-python-package-functional-data-analysis-2024",
+    "relevant": false,
+    "title": "scikit-fda: A Python Package for Functional Data Analysis",
+    "authors": [
+      "Carlos Ramos-Carreño",
+      "José Luis Torrecilla",
+      "Miguel Carbajo-Berrocal",
+      "Pablo Marcos",
+      "Alberto Suárez"
+    ],
+    "venue": null,
+    "year": 2024,
+    "date": "2024",
+    "type": "journal",
+    "tags": [
+      "functional data analysis",
+      "python library",
+      "scikit-fda"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.18637/jss.v109.i02",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "rdata-python-library-r-datasets-2024",
+    "relevant": false,
+    "title": "rdata: A Python library for R datasets",
+    "authors": [
+      "Carlos Ramos-Carreño",
+      "Tuomas Rossi"
+    ],
+    "venue": "Journal of Open Source Software",
+    "year": 2024,
+    "date": "2024",
+    "type": "journal",
+    "tags": [
+      "python library",
+      "R datasets",
+      "open source software"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.21105/joss.07540",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "nystrom-rff-ensembles-large-scale-kernel-predictions-2024",
+    "relevant": false,
+    "title": "Nyström and RFF Ensembles for Large-Scale Kernel Predictions",
+    "authors": [
+      "Blanca Cano",
+      "Ángela Fernández",
+      "Jose R. Dorronsoro"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems",
+    "year": 2024,
+    "date": "2024",
+    "type": "conference",
+    "tags": [
+      "kernel methods",
+      "Nyström method",
+      "random fourier features",
+      "ensembles"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1007/978-3-031-74183-8_14",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "interfaz-inteligente-ayuda-navegacion-autonoma-exteriores-2024",
+    "relevant": false,
+    "title": "Interfaz inteligente de ayuda a la navegación autónoma en exteriores",
+    "authors": [
+      "Luz María Hidalgo García",
+      "Juan Jesús Roldán Gómez"
+    ],
+    "venue": "Jornadas de Automática",
+    "year": 2024,
+    "date": "2024",
+    "type": "conference",
+    "tags": [
+      "autonomous navigation",
+      "robotics",
+      "intelligent interfaces"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.17979/ja-cea.2024.45.10962",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "survey-kernel-based-multi-task-learning-2024",
+    "relevant": false,
+    "title": "A survey on kernel-based multi-task learning",
+    "authors": [
+      "Carlos Ruíz",
+      "Carlos M. Alaíz",
+      "José R. Dorronsoro"
+    ],
+    "venue": "Neurocomputing",
+    "year": 2024,
+    "date": "2024",
+    "type": "journal",
+    "tags": [
+      "multi-task learning",
+      "kernel methods",
+      "survey"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1016/j.neucom.2024.127255",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "adaptive-graph-laplacian-mtl-l1-l2-ls-svms-2024",
+    "relevant": false,
+    "title": "Adaptive graph Laplacian MTL L1, L2 and LS-SVMs",
+    "authors": [
+      "Carlos Ruíz",
+      "Carlos M. Alaíz",
+      "José R. Dorronsoro"
+    ],
+    "venue": "Logic Journal of the IGPL",
+    "year": 2024,
+    "date": "2024",
+    "type": "journal",
+    "tags": [
+      "multi-task learning",
+      "graph laplacian",
+      "support vector machines"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1093/jigpal/jzae025",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "joint-entropy-search-multi-objective-bayesian-optimization-esann-2024",
+    "relevant": false,
+    "title": "Joint Entropy Search for Multi-objective Bayesian Optimization with Constraints and Multiple Fidelities",
+    "authors": [
+      "Daniel Fernández-Sánchez",
+      "Daniel Hernández-Lobato"
+    ],
+    "venue": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning - ESANN 2024",
+    "year": 2024,
+    "date": "2024",
+    "type": "conference",
+    "tags": [
+      "Bayesian optimization",
+      "multi-objective optimization",
+      "joint entropy search",
+      "multi-fidelity"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.14428/esann/2024.ES2024-24",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "deep-learning-multi-output-regression-gradient-boosting-2024",
+    "relevant": false,
+    "title": "Deep Learning for Multi-Output Regression using Gradient Boosting",
+    "authors": [
+      "Seyedsaman Emami",
+      "Gonzalo Martínez-Muñoz"
+    ],
+    "venue": "IEEE Access",
+    "year": 2024,
+    "date": "2024",
+    "type": "journal",
+    "tags": [
+      "deep learning",
+      "multi-output regression",
+      "gradient boosting"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.1109/ACCESS.2024.3359115",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "towards-efficient-modeling-inference-gaussian-process-state-space-models-2024",
+    "relevant": false,
+    "title": "Towards Efficient Modeling and Inference in Multi-dimensional Gaussian Process State-space Models",
+    "authors": [
+      "Zhidi Lin",
+      "Juan Maroñas",
+      "Ying Li",
+      "Feng Yin",
+      "Sergios Theodoridis"
+    ],
+    "venue": "Acoustics, Speech and Signal Processing - ICASSP",
+    "year": 2024,
+    "date": "2024",
+    "type": "conference",
+    "tags": [
+      "Gaussian processes",
+      "state-space models",
+      "signal processing"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": "https://doi.org/10.48550/arXiv.2309.01074",
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "learning-analytics-tools-analyze-progress-results-moodle-lms-data-2024",
+    "relevant": false,
+    "title": "Learning Analytics Tools to Analyze Progress and Results With Moodle LMS Data",
+    "authors": [
+      "C. Alonso-Fernández",
+      "J. L. Jorro-Aragoneses",
+      "C. M. Alaíz",
+      "P. Rodríguez"
+    ],
+    "venue": "EDUCON",
+    "year": 2024,
+    "date": "2024",
+    "type": "conference",
+    "tags": [
+      "learning analytics",
+      "Moodle LMS",
+      "educational technology"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "feature-importance-analysis-unbalanced-multiple-myeloma-classification-2024",
+    "relevant": false,
+    "title": "Feature importance analysis for a highly unbalanced multiple myeloma data classification",
+    "authors": [
+      "R. Guilal",
+      "N. Settouti",
+      "G. Martínez-Muñoz",
+      "M. Amine Chikh"
+    ],
+    "venue": "International Journal of Medical Engineering and Informatics",
+    "year": 2024,
+    "date": "2024",
+    "type": "journal",
+    "tags": [
+      "feature importance",
+      "medical informatics",
+      "imbalanced data",
+      "classification"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  }
+]

@@ -281,3 +281,119 @@ select, button, input {
     color: var(--text-muted);
     line-height: 1.5;
 }
+
+/* ============================================================
+   Publications
+   EN: Rendered by js/publications.js (teaser, relevant-only,
+       on index.html) and js/publications-all.js (full list with
+       filters, on publications.html) using the shared row markup
+       from js/publications-common.js. Always ONE publication per
+       row (a vertical list), never a multi-column grid.
+   ES: Renderizado por js/publications.js (avance, solo
+       relevantes, en index.html) y js/publications-all.js (lista
+       completa con filtros, en publications.html) usando el
+       marcado de fila compartido de js/publications-common.js.
+       Siempre UNA publicación por fila (lista vertical), nunca
+       una rejilla multi-columna.
+   ============================================================ */
+
+.publication-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.publication-row {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.publication-type {
+    align-self: flex-start;
+}
+
+.publication-title {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.35;
+}
+
+.publication-authors {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.publication-venue {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.publication-abstract {
+    margin: 0.25rem 0 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.publication-links {
+    margin-top: 0.25rem;
+}
+
+/* EN: "View all publications" link under the teaser list.
+   ES: Enlace "Ver todas las publicaciones" bajo la lista de avance. */
+.view-all-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+/* ============================================================
+   Publications — filter bar (publications.html only)
+   ============================================================ */
+
+.publications-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+}
+
+.pub-filter-control {
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--text-main);
+}
+
+#pub-search {
+    flex: 1 1 240px;
+}
+
+/* EN: Fallback button styles, in case .btn / .btn-secondary
+       aren't already defined in components.css.
+   ES: Estilos de botón de respaldo, por si .btn / .btn-secondary
+       no están ya definidos en components.css. */
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: #fff;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--primary);
+}

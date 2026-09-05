@@ -1,0 +1,478 @@
+[
+  {
+    "id": "sabzevari2022building",
+    "relevant": false,
+    "title": "Building heterogeneous ensembles by pooling homogeneous ensembles.",
+    "authors": [
+      "Maryam Sabzevari",
+      "Gonzalo Martínez-Muñoz",
+      "Alberto Suárez"
+    ],
+    "venue": "International Journal of Machine Learning and Cybernetics",
+    "year": 2022,
+    "date": "2022",
+    "type": "journal",
+    "tags": [
+      "Ensemble Learning"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/s13042-021-01442-1"
+    }
+  },
+  {
+    "id": "nevado2022svm",
+    "relevant": false,
+    "title": "SVM Ensembles on a Budget.",
+    "authors": [
+      "David Nevado",
+      "Gonzalo Martínez-Muñoz",
+      "Alberto Suárez"
+    ],
+    "venue": "Artificial Neural Networks and Machine Learning - ICANN",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Support Vector Machines"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-031-15937-4_25"
+    }
+  },
+  {
+    "id": "emami2022multioutput",
+    "relevant": false,
+    "title": "Multioutput Regression Neural Network Training via Gradient Boosting.",
+    "authors": [
+      "Seyedsaman Emami",
+      "Gonzalo Martínez-Muñoz"
+    ],
+    "venue": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning - ESANN 2022",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Gradient Boosting"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.14428/esann/2022.ES2022-95"
+    }
+  },
+  {
+    "id": "ortega2022diversity",
+    "relevant": false,
+    "title": "Diversity and Generalizatrion in Neural Network Ensembles.",
+    "authors": [
+      "Luis A. Ortega",
+      "Rafael Cabañas",
+      "Andrés R. Masegosa"
+    ],
+    "venue": "AISTATS 2022",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Neural Networks"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "pdf": "https://proceedings.mlr.press/v151/ortega22a/ortega22a.pdf"
+    }
+  },
+  {
+    "id": "villacampa2022alpha",
+    "relevant": false,
+    "title": "Alpha-divergence minimization for deep Gaussian processes.",
+    "authors": [
+      "Carlos Villacampa-Calvo",
+      "Gonzalo Hernández-Muñoz",
+      "Daniel Hernández-Lobato"
+    ],
+    "venue": "International Journal of Approximate Reasoning",
+    "year": 2022,
+    "date": "2022",
+    "type": "journal",
+    "tags": [
+      "Gaussian Processes"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1016/j.ijar.2022.08.003"
+    }
+  },
+  {
+    "id": "rodriguez2022function",
+    "relevant": false,
+    "title": "Function-space Inference with Sparse Implicit Processes.",
+    "authors": [
+      "S. Rodríguez-Santana",
+      "B. Zaldivar",
+      "D. Hernandez-Lobato"
+    ],
+    "venue": "International Conference on Machine Learning",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Probabilistic Machine Learning"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "pdf": "https://proceedings.mlr.press/v162/rodri-guez-santana22a.html"
+    }
+  },
+  {
+    "id": "rodriguez2022adversarial",
+    "relevant": false,
+    "title": "Adversarial α-divergence minimization for Bayesian approximate inference.",
+    "authors": [
+      "S. Rodríguez-Santana",
+      "D. Hernandez-Lobato"
+    ],
+    "venue": "International Conference on Machine Learning",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Bayesian Inference"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1016/j.neucom.2020.09.076"
+    }
+  },
+  {
+    "id": "jafrasteh2022input",
+    "relevant": false,
+    "title": "Input Dependent Sparse Gaussian Processes.",
+    "authors": [
+      "B. Jafrasteh",
+      "C. Villacampa-Calvo",
+      "D. Hernandez-Lobato"
+    ],
+    "venue": "Hybrid Artificial Intelligent Systems - HAIS 2022",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Gaussian Processes"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "pdf": "https://proceedings.mlr.press/v162/jafrasteh22a/jafrasteh22a.pdf"
+    }
+  },
+  {
+    "id": "diaz2022companion",
+    "relevant": false,
+    "title": "Companion Losses for Ordinal Regression.",
+    "authors": [
+      "D. Díaz-Vico",
+      "A. Fernández",
+      "J. R. Dorronsoro"
+    ],
+    "venue": "Hybrid Artificial Intelligent Systems - HAIS 2022",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Loss Functions"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-031-15471-3_19"
+    }
+  },
+  {
+    "id": "ruiz2022convex",
+    "relevant": false,
+    "title": "Convex Multi-Task Learning with Neural Networks.",
+    "authors": [
+      "Carlos Ruíz",
+      "Carlos M. Alaíz",
+      "José R. Dorronsoro"
+    ],
+    "venue": "Hybrid Artificial Intelligent Systems - HAIS 2022",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Multi-Task Learning"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-031-15471-3_20"
+    }
+  },
+  {
+    "id": "hen2022improving",
+    "relevant": false,
+    "title": "Improving Laplacian Pyramids Regression with Localization in Frequency and Time.",
+    "authors": [
+      "B. Hen",
+      "N. Rabin",
+      "A. Fernández"
+    ],
+    "venue": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning - ESANN 2022",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Pyramidal Models"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.14428/esann/2022.ES2022-106"
+    }
+  },
+  {
+    "id": "fernandez2022supervised",
+    "relevant": false,
+    "title": "Supervised Outlier Detection for Classification and Regression.",
+    "authors": [
+      "A. Fernández",
+      "J. Bella",
+      "J. R. Dorronsoro"
+    ],
+    "venue": "Neurocomputing",
+    "year": 2022,
+    "date": "2022",
+    "type": "journal",
+    "tags": [
+      "Anomaly Detection"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "doi": "https://doi.org/10.1016/j.neucom.2022.02.047"
+    }
+  },
+  {
+    "id": "vaca2022biomedia",
+    "relevant": false,
+    "title": "BioMedIA: A Complete Voice-to-Voice Generative Question Answering System for the Biomedical Domain in Spanish.",
+    "authors": [
+      "Alejandro Vaca Serrano",
+      "David Betancur Sanchez",
+      "Alba Segurado",
+      "Guillem Garcia Subies",
+      "Alvaro Barbero Jimenez"
+    ],
+    "venue": "North American Chapter of the Association for Computational Linguistics Conference: LatinX in AI (LXAI) Research Workshop 2022",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Natural Language Processing"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "pdf": "https://research.latinxinai.org/papers/naacl/2022/pdf/paper_06.pdf"
+    }
+  },
+  {
+    "id": "vaca2022rigoberta",
+    "relevant": false,
+    "title": "RigoBERTa: A State-of-The-Art Language Model For Spanish.",
+    "authors": [
+      "Alejandro Vaca Serrano",
+      "Guillem Garcia Subies",
+      "Helena Montoro Zamorano",
+      "Nuria Aldama Garcia",
+      "Doaa Samy",
+      "David Betancur Sanchez",
+      "Antonio Moreno Sandoval",
+      "Marta Guerrero Nieto",
+      "Alvaro Barbero Jimenez"
+    ],
+    "venue": "arXiv e-prints",
+    "year": 2022,
+    "date": "2022",
+    "type": "preprint",
+    "tags": [
+      "Large Language Models"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2205.10233"
+    }
+  },
+  {
+    "id": "ramos2022scikit",
+    "relevant": false,
+    "title": "scikit-fda: Computational tools for machine learning with functional data.",
+    "authors": [
+      "C. Ramos-Carreño",
+      "J. L. Torrecilla",
+      "Y. Hong",
+      "A. Suárez"
+    ],
+    "venue": "IEEE International Conference on Tools with Artificial Intelligence",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Functional Data Analysis"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "delcampo2022deep",
+    "relevant": false,
+    "title": "Deep learning applied to wind power forecasting: a spatio-temporal approach.",
+    "authors": [
+      "R. del Campo",
+      "E. Anguiano",
+      "Á. Romero",
+      "J. R. Dorronsoro"
+    ],
+    "venue": "International Conference on Time Series and Forecasting",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Time Series Forecasting"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "ramos2022classification",
+    "relevant": false,
+    "title": "Classification of functional data: a comparative study.",
+    "authors": [
+      "C. Ramos-Carreño",
+      "J. L. Torrecilla",
+      "A. Suárez"
+    ],
+    "venue": "International Conference on Machine Learning and Applications",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Functional Data Analysis"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "roldan2022swarmcity",
+    "relevant": false,
+    "title": "SwarmCity project: monitoring traffic, pedestrians, climate, and pollution with an aerial robotic swarm.",
+    "authors": [
+      "J. J. Roldán-Gómez",
+      "P. García Auñón",
+      "P. Mazariegos",
+      "A. Barrientos"
+    ],
+    "venue": "Personal and Ubiquitous Computing",
+    "year": 2022,
+    "date": "2022",
+    "type": "journal",
+    "tags": [
+      "Robotics & Swarms"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "roldan2022artificial",
+    "relevant": false,
+    "title": "Artificial Stupidity in Robotics: Something Unwanted or Somehow Useful?",
+    "authors": [
+      "J. J. Roldán-Gómez"
+    ],
+    "venue": "Iberian Robotics Conference",
+    "year": 2022,
+    "date": "2022",
+    "type": "conference",
+    "tags": [
+      "Robotics & Swarms"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  },
+  {
+    "id": "mohammed2022analysis",
+    "relevant": false,
+    "title": "An analysis of heuristic metrics for classifier ensemble pruning based on ordered aggregation.",
+    "authors": [
+      "A. M. Mohammed",
+      "E. Onieva",
+      "M. Woźniak",
+      "G. Martínez-Muñoz"
+    ],
+    "venue": "Pattern Recognition",
+    "year": 2022,
+    "date": "2022",
+    "type": "journal",
+    "tags": [
+      "Ensemble Learning"
+    ],
+    "abstract": {
+      "en": "",
+      "es": ""
+    },
+    "links": {}
+  }
+]

@@ -1,0 +1,255 @@
+[
+  {
+    "id": "joint-entropy-search-multi-objective-bayesian-optimization-2025",
+    "relevant": true,
+    "title": "Joint entropy search for multi-objective Bayesian optimization with constraints and multiple fidelities",
+    "authors": [
+      "D. Fernández-Sánchez",
+      "D. Hernández-Lobato"
+    ],
+    "venue": "Neurocomputing",
+    "year": 2025,
+    "date": "2025",
+    "type": "journal",
+    "tags": [
+      "Bayesian optimization",
+      "multi-objective optimization",
+      "joint entropy search",
+      "multi-fidelity"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "alpha-entropy-search-new-information-based-bayesian-optimization-2025",
+    "relevant": true,
+    "title": "Alpha entropy search for new information-based Bayesian optimization",
+    "authors": [
+      "D. Fernández-Sánchez",
+      "E. C. Garrido-Merchán",
+      "D. Hernández-Lobato"
+    ],
+    "venue": "Knowledge-Based Systems",
+    "year": 2025,
+    "date": "2025",
+    "type": "journal",
+    "tags": [
+      "Bayesian optimization",
+      "alpha entropy search",
+      "information theory"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "analysis-kernel-thinning-scalable-support-vector-machines-2025",
+    "relevant": false,
+    "title": "Analysis of Kernel Thinning for Scalable Support Vector Machines",
+    "authors": [
+      "B. Cano",
+      "Á. Fernández",
+      "J. R. Dorronsoro"
+    ],
+    "venue": "International Conference on Hybrid Artificial Intelligence Systems",
+    "year": 2025,
+    "date": "2025",
+    "type": "conference",
+    "tags": [
+      "kernel thinning",
+      "support vector machines",
+      "scalability"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "rlboost-boosting-supervised-models-deep-reinforcement-learning-2025",
+    "relevant": true,
+    "title": "RLBoost: Boosting supervised models using deep reinforcement learning",
+    "authors": [
+      "E. A. Batanero",
+      "Á. F. Pascual",
+      "Á. B. Jiménez"
+    ],
+    "venue": "Neurocomputing",
+    "year": 2025,
+    "date": "2025",
+    "type": "journal",
+    "tags": [
+      "boosting",
+      "supervised learning",
+      "deep reinforcement learning"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "framework-uncertainty-quantification-nearest-neighbors-layers-2025",
+    "relevant": false,
+    "title": "A framework for uncertainty quantification based on nearest neighbors across layers",
+    "authors": [
+      "M. N. Font",
+      "J. L. Jorro-Aragoneses",
+      "C. M. Alaíz"
+    ],
+    "venue": "International Conference on Artificial Neural Networks",
+    "year": 2025,
+    "date": "2025",
+    "type": "conference",
+    "tags": [
+      "uncertainty quantification",
+      "nearest neighbors",
+      "neural networks"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "condensed-gradient-boosting-2025",
+    "relevant": false,
+    "title": "Condensed-gradient boosting",
+    "authors": [
+      "S. Emami",
+      "G. Martínez-Muñoz"
+    ],
+    "venue": "International Journal of Machine Learning and Cybernetics",
+    "year": 2025,
+    "date": "2025",
+    "type": "journal",
+    "tags": [
+      "gradient boosting",
+      "machine learning"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "pac-chernoff-bounds-understanding-generalization-interpolation-regime-2025",
+    "relevant": false,
+    "title": "PAC-Chernoff Bounds: Understanding Generalization in the Interpolation Regime",
+    "authors": [
+      "A. R. Masegosa",
+      "L. A. Ortega"
+    ],
+    "venue": "Journal of Artificial Intelligence Research",
+    "year": 2025,
+    "date": "2025",
+    "type": "journal",
+    "tags": [
+      "PAC-Bayes bounds",
+      "generalization",
+      "interpolation regime"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  },
+  {
+    "id": "towards-comparable-knowledge-distillation-semantic-image-segmentation-2025",
+    "relevant": false,
+    "title": "Towards comparable knowledge distillation in semantic image segmentation",
+    "authors": [
+      "O. Niemann",
+      "C. Vox",
+      "T. Werner"
+    ],
+    "venue": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)",
+    "year": 2025,
+    "date": "2025",
+    "type": "conference",
+    "tags": [
+      "knowledge distillation",
+      "semantic segmentation",
+      "computer vision"
+    ],
+    "abstract": {
+      "en": null,
+      "es": null
+    },
+    "links": {
+      "pdf": null,
+      "doi": null,
+      "arxiv": null,
+      "code": null,
+      "slides": null,
+      "video": null,
+      "bibtex": null
+    }
+  }
+]

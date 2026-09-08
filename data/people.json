@@ -7,8 +7,8 @@
       "es": "Director e Investigador Principal"
     },
     "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
+      "en": "",
+      "es": ""
     },
     "photo": "",
     "email": "jose.ramon.dorronsoro@uam.es",
@@ -21,12 +21,8 @@
     "category": "researcher",
     "name": "Alberto Suárez González",
     "role": {
-      "en": "Director & Principal Investigator",
-      "es": "Director e Investigador Principal"
-    },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
+      "en": "Full Professor",
+      "es": "Catedrático"
     },
     "photo": "",
     "email": "alberto.suarez@uam.es",
@@ -39,37 +35,29 @@
     "category": "researcher",
     "name": "Daniel Hernández Lobato",
     "role": {
-      "en": "Director & Principal Investigator",
-      "es": "Director e Investigador Principal"
-    },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
+      "en": "Associate Professor",
+      "es": "Profesor Titular"
     },
     "photo": "",
     "email": "daniel.hernandez@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "",
-    "website": "",
-    "interests": ["AI Foundations", "Neural Networks"]
+    "scholar": "https://scholar.google.com/citations?user=rL6cvTUAAAAJ&hl=es&oi=ao",
+    "orcid": "https://orcid.org/0000-0001-5845-437X",
+    "website": "https://dhnzl.org/",
+    "interests": ["Approximate Bayesian Inference", "Bayesian Optimization", "Bayesian Deep Learning", "Kernel Methods", "Gaussian Processes"]
   },
   {
     "category": "researcher",
     "name": "Gonzalo Martínez Muñoz",
     "role": {
-      "en": "Director & Principal Investigator",
-      "es": "Director e Investigador Principal"
-    },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
+      "en": "Full Professor",
+      "es": "Catedrático"
     },
     "photo": "",
     "email": "gonzalo.martinez@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "",
+    "scholar": "https://scholar.google.com/citations?user=L5-XoykAAAAJ",
+    "orcid": "https://orcid.org/0000-0002-6125-6056",
     "website": "",
-    "interests": ["AI Foundations", "Neural Networks"]
+    "interests": ["Machine learning", "Ensembles", "Model Explainability", "Diffusion Models"]
   },
   {
     "category": "researcher",
@@ -77,10 +65,6 @@
     "role": {
       "en": "Director & Principal Investigator",
       "es": "Director e Investigador Principal"
-    },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
     },
     "photo": "",
     "email": "carlos.santa.cruz@uam.es",
@@ -96,10 +80,6 @@
       "en": "Director & Principal Investigator",
       "es": "Director e Investigador Principal"
     },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
-    },
     "photo": "",
     "email": "alejandro.sierra@uam.es",
     "scholar": "https://scholar.google.com",
@@ -113,10 +93,6 @@
     "role": {
       "en": "Director & Principal Investigator",
       "es": "Director e Investigador Principal"
-    },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
     },
     "photo": "",
     "email": "ana.maria.gonzalez@uam.es",
@@ -132,10 +108,6 @@
       "en": "Director & Principal Investigator",
       "es": "Director e Investigador Principal"
     },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
-    },
     "photo": "",
     "email": "konstadin.koroutchev@uam.es",
     "scholar": "https://scholar.google.com",
@@ -149,10 +121,6 @@
     "role": {
       "en": "Director & Principal Investigator",
       "es": "Director e Investigador Principal"
-    },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
     },
     "photo": "",
     "email": "estrella.pulido@uam.es",
@@ -168,10 +136,6 @@
       "en": "Director & Principal Investigator",
       "es": "Director e Investigador Principal"
     },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
-    },
     "photo": "",
     "email": "angela.fernandez@uam.es",
     "scholar": "https://scholar.google.com",
@@ -186,16 +150,12 @@
       "en": "Director & Principal Investigator",
       "es": "Director e Investigador Principal"
     },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
-    },
     "photo": "",
-    "email": "carlos.maria.alaiz@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "",
-    "website": "",
-    "interests": ["AI Foundations", "Neural Networks"]
+    "email": "carlos.alaiz@uam.es",
+    "scholar": "https://scholar.google.es/citations?user=qie5lkYAAAAJ",
+    "orcid": "https://orcid.org/0000-0001-9410-1192",
+    "website": "https://sites.google.com/site/carlosalaiz",
+    "interests": ["Métodos de núcleos", "Interpretabilidad", "Optimización", "Predicción de energías renovables"]
   },
   {
     "category": "researcher",
@@ -204,34 +164,40 @@
       "en": "Director & Principal Investigator",
       "es": "Director e Investigador Principal"
     },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
-    },
     "photo": "",
-    "email": "juan.jesus.roldan@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "",
-    "website": "",
-    "interests": ["AI Foundations", "Neural Networks"]
+    "email": "juan.roldan@uam.es",
+    "scholar": "https://scholar.google.es/citations?user=rH1CtQgAAAAJ&hl=es&oi=sra",
+    "orcid": "https://orcid.org/0000-0001-8863-4419",
+    "website": "http://www.jjrg.org/",
+    "interests": ["Robotics", "Artificial Intelligence", "Machine Learning", "Reinforcement Learning", "Search & Rescue Robots", "Mobile Robots", "Robot Swarms"]
   },
   {
     "category": "researcher",
     "name": "David Díaz Vico",
     "role": {
-      "en": "Director & Principal Investigator",
-      "es": "Director e Investigador Principal"
-    },
-    "bio": {
-      "en": "Focuses on theoretical foundations of artificial intelligence, computability, and neural representations.",
-      "es": "Centrado en los fundamentos teóricos de la inteligencia artificial, computabilidad y representaciones neuronales."
+      "en": "Assistant Professor",
+      "es": "Profesor Ayudante Doctor"
     },
     "photo": "",
-    "email": "david.diaz@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "",
-    "website": "",
-    "interests": ["AI Foundations", "Neural Networks"]
+    "email": "david.diazv@uam.es",
+    "scholar": "https://scholar.google.com/citations?user=d8F6fxUAAAAJ",
+    "orcid": "https://orcid.org/0000-0002-4002-5312",
+    "website": "https://www.researchgate.net/profile/David-Diaz-Vico",
+    "interests": ["Machine Learning", "Deep Learning"]
+  },
+  {
+    "category": "researcher",
+    "name": "Seyedsaman (Saman) Emami",
+    "role": {
+      "en": "Assistant Professor",
+      "es": "Profesor Ayudante Doctor"
+    },
+    "photo": "",
+    "email": "emami.seyedsaman@uam.es",
+    "scholar": "https://scholar.google.com/citations?user=B7xuQ8kAAAAJ&hl=en&oi=ao",
+    "orcid": "https://orcid.org/0000-0002-6306-1180",
+    "website": "https://samanemami.com/",
+    "interests": ["Deep Learning", "Multi-task Learning", "Gradient Boosting", "Computer Vision"]
   },
   {
     "category": "affiliated",
@@ -243,10 +209,6 @@
     "affiliation": {
       "en": "NASA Research Center",
       "es": "Centro de Investigación de la NASA"
-    },
-    "bio": {
-      "en": "Collaborates on mathematical verification and trajectory optimization algorithms.",
-      "es": "Colabora en verificación matemática y algoritmos de optimización de trayectorias."
     },
     "photo": "",
     "email": "julia.diaz@uam.es",
@@ -266,10 +228,6 @@
       "en": "NASA Research Center",
       "es": "Centro de Investigación de la NASA"
     },
-    "bio": {
-      "en": "Collaborates on mathematical verification and trajectory optimization algorithms.",
-      "es": "Colabora en verificación matemática y algoritmos de optimización de trayectorias."
-    },
     "photo": "",
     "email": "pedro.pascual@uam.es",
     "scholar": "https://scholar.google.com",
@@ -287,10 +245,6 @@
     "affiliation": {
       "en": "NASA Research Center",
       "es": "Centro de Investigación de la NASA"
-    },
-    "bio": {
-      "en": "Collaborates on mathematical verification and trajectory optimization algorithms.",
-      "es": "Colabora en verificación matemática y algoritmos de optimización de trayectorias."
     },
     "photo": "",
     "email": "alvaro.barbero@uam.es",
@@ -310,10 +264,6 @@
       "en": "NASA Research Center",
       "es": "Centro de Investigación de la NASA"
     },
-    "bio": {
-      "en": "Collaborates on mathematical verification and trajectory optimization algorithms.",
-      "es": "Colabora en verificación matemática y algoritmos de optimización de trayectorias."
-    },
     "photo": "",
     "email": "jorge.lopez@uam.es",
     "scholar": "https://scholar.google.com",
@@ -332,10 +282,6 @@
       "en": "NASA Research Center",
       "es": "Centro de Investigación de la NASA"
     },
-    "bio": {
-      "en": "Collaborates on mathematical verification and trajectory optimization algorithms.",
-      "es": "Colabora en verificación matemática y algoritmos de optimización de trayectorias."
-    },
     "photo": "",
     "email": "jose.miguel.hernandez@uam.es",
     "scholar": "https://scholar.google.com",
@@ -347,67 +293,73 @@
     "category": "affiliated",
     "name": "Juan Maroñas Molano",
     "role": {
-      "en": "Visiting Professor",
-      "es": "Profesora Visitante"
+      "en": "Assistant Professor",
+      "es": "Profesor Adjunto"
     },
     "affiliation": {
-      "en": "NASA Research Center",
-      "es": "Centro de Investigación de la NASA"
-    },
-    "bio": {
-      "en": "Collaborates on mathematical verification and trajectory optimization algorithms.",
-      "es": "Colabora en verificación matemática y algoritmos de optimización de trayectorias."
+      "en": "CUNEF Universidad",
+      "es": "CUNEF Universidad"
     },
     "photo": "",
-    "email": "juan.maronas@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "0000-0001-5109-3700",
-    "website": "",
-    "interests": ["Verification", "Optimization"]
+    "email": "juan.maronas@cunef.edu",
+    "scholar": "https://scholar.google.com/citations?user=sGtYXSMAAAAJ&hl=es&google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3Dd28d68ebb04ff97d:TM%3D1788778804:C%3Dr:IP%3D79.117.225.226-:S%3D78sEU6OHeVueNECb7HtG_xY%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DMon,+07-Sep-2026+14:00:04+GMT",
+    "orcid": "https://orcid.org/0000-0002-2939-7676",
+    "website": "https://jmaronas.github.io/Deep-Learning-and-Machine-Learning/index.html",
+    "interests": ["Machine Learning"]
   },
   {
     "category": "affiliated",
     "name": "Eduardo César Garrido Merchán",
     "role": {
-      "en": "Visiting Professor",
-      "es": "Profesora Visitante"
+      "en": "Assistant Professor",
+      "es": "Profesor Adjunto"
     },
     "affiliation": {
-      "en": "NASA Research Center",
-      "es": "Centro de Investigación de la NASA"
-    },
-    "bio": {
-      "en": "Collaborates on mathematical verification and trajectory optimization algorithms.",
-      "es": "Colabora en verificación matemática y algoritmos de optimización de trayectorias."
+      "en": "Universidad Pontificia Comillas - IIT",
+      "es": "Universidad Pontificia Comillas - IIT"
     },
     "photo": "",
-    "email": "eduardo.garrido@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "0000-0001-5109-3700",
-    "website": "",
-    "interests": ["Verification", "Optimization"]
+    "email": "ecgarrido@comillas.edu",
+    "scholar": "https://scholar.google.es/citations?user=CjCcb90AAAAJ&hl=en&oi=ao",
+    "orcid": "https://orcid.org/0000-0002-2695-5484",
+    "website": "https://eduardogarrido90.github.io/index.html",
+    "interests": ["Reinforcement Learning", "Bayesian Optimization", "Neurosymbolic AI"]
   },
   {
     "category": "affiliated",
     "name": "Daniel Fernández Sánchez",
     "role": {
-      "en": "Visiting Professor",
-      "es": "Profesora Visitante"
+      "en": "Postdoc",
+      "es": "Investigador Postdoctoral"
     },
     "affiliation": {
-      "en": "NASA Research Center",
-      "es": "Centro de Investigación de la NASA"
-    },
-    "bio": {
-      "en": "Collaborates on mathematical verification and trajectory optimization algorithms.",
-      "es": "Colabora en verificación matemática y algoritmos de optimización de trayectorias."
+      "en": "ELLIS Institute Finland, Aalto University",
+      "es": "ELLIS Institute Finland, Aalto University"
     },
     "photo": "",
-    "email": "daniel.fernandez@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "0000-0001-5109-3700",
-    "website": "",
-    "interests": ["Verification", "Optimization"]
+    "email": "daniel.fernandezsanchez@aalto.fi",
+    "scholar": "https://scholar.google.es/citations?user=fFn6ILgAAAAJ",
+    "orcid": "https://orcid.org/0000-0002-0742-5111",
+    "website": "https://www.linkedin.com/in/daniel-fernandezsanchez/",
+    "interests": ["Bayesian Optimization", "Gaussian Processes", "Approximate Inference", "Amortized Experimental Design", "Distribution Shifts in Deployment"]
+  },
+  {
+    "category": "affiliated",
+    "name": "Javier Paris",
+    "role": {
+      "en": "Lecturer",
+      "es": "Profesor Ayudante Doctor"
+    },
+    "affiliation": {
+      "en": "CUNEF Universidad",
+      "es": "CUNEF Universidad"
+    },
+    "photo": "",
+    "email": "javier.parisu@estudiante.uam.es",
+    "scholar": "https://scholar.google.es/citations?user=eW7qyV0AAAAJ&hl=es",
+    "orcid": "https://orcid.org/0000-0001-6489-0530",
+    "website": "https://jparisu.github.io/",
+    "interests": ["Machine Learning Explainability"]
   },
   {
     "category": "phd",
@@ -416,34 +368,12 @@
       "en": "PhD Candidate",
       "es": "Doctoranda"
     },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
-    },
     "photo": "",
     "email": "blanca.cano@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "",
-    "website": "https://example.edu/~ghopper",
-    "interests": ["Compilers", "NLP"]
-  },
-  {
-    "category": "phd",
-    "name": "Javier Paris Uhryn",
-    "role": {
-      "en": "PhD Candidate",
-      "es": "Doctoranda"
-    },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
-    },
-    "photo": "",
-    "email": "javier.paris@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "",
-    "website": "https://example.edu/~ghopper",
-    "interests": ["Compilers", "NLP"]
+    "scholar": "https://scholar.google.com/citations?user=giWMXBAAAAAJ",
+    "orcid": "https://orcid.org/0009-0001-6330-4824",
+    "website": "https://blancacc.github.io",
+    "interests": ["Kernel Methods", "Semi-supervised Learning", "Multi-view Learning", "Contrastive Losses", "Data Subsampling"]
   },
   {
     "category": "phd",
@@ -452,16 +382,12 @@
       "en": "PhD Candidate",
       "es": "Doctoranda"
     },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
-    },
     "photo": "",
     "email": "onno.niemann@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "",
+    "scholar": "https://scholar.google.com/citations?user=_edAalAAAAAJ&hl=en",
+    "orcid": "https://orcid.org/0009-0004-6131-529X",
     "website": "https://example.edu/~ghopper",
-    "interests": ["Compilers", "NLP"]
+    "interests": ["Diffusion Models", "Knowledge Distillation", "Molecular Modelling"]
   },
   {
     "category": "phd",
@@ -469,10 +395,6 @@
     "role": {
       "en": "PhD Candidate",
       "es": "Doctoranda"
-    },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
     },
     "photo": "",
     "email": "eloy.anguiano@uam.es",
@@ -488,10 +410,6 @@
       "en": "PhD Candidate",
       "es": "Doctoranda"
     },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
-    },
     "photo": "",
     "email": "adrian.munoz@uam.es",
     "scholar": "https://scholar.google.com",
@@ -505,10 +423,6 @@
     "role": {
       "en": "PhD Candidate",
       "es": "Doctoranda"
-    },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
     },
     "photo": "",
     "email": "sara.alonso@uam.es",
@@ -524,10 +438,6 @@
       "en": "PhD Candidate",
       "es": "Doctoranda"
     },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
-    },
     "photo": "",
     "email": "isabel.ayuso@uam.es",
     "scholar": "https://scholar.google.com",
@@ -541,10 +451,6 @@
     "role": {
       "en": "PhD Candidate",
       "es": "Doctoranda"
-    },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
     },
     "photo": "",
     "email": "luz.hidalgo@uam.es",
@@ -560,10 +466,6 @@
       "en": "PhD Candidate",
       "es": "Doctoranda"
     },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
-    },
     "photo": "",
     "email": "alejandro.santorum@uam.es",
     "scholar": "https://scholar.google.com",
@@ -577,10 +479,6 @@
     "role": {
       "en": "PhD Candidate",
       "es": "Doctoranda"
-    },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
     },
     "photo": "",
     "email": "yago.aguado@uam.es",
@@ -596,10 +494,6 @@
       "en": "PhD Candidate",
       "es": "Doctoranda"
     },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
-    },
     "photo": "",
     "email": "luis.sanchez@uam.es",
     "scholar": "https://scholar.google.com",
@@ -611,19 +505,15 @@
     "category": "phd",
     "name": "Violeta Tejera Munguía",
     "role": {
-      "en": "PhD Candidate",
-      "es": "Doctoranda"
-    },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
+      "en": "",
+      "es": ""
     },
     "photo": "",
     "email": "violeta.tejera@uam.es",
-    "scholar": "https://scholar.google.com",
-    "orcid": "",
-    "website": "https://example.edu/~ghopper",
-    "interests": ["Compilers", "NLP"]
+    "scholar": "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AKCpqFwuZC2mQtuBLpYhcrkW4SLGLF1BjeV0_CTvmi0eysgsywX36O5JDlDnIUERjf_Fw4LfBN5ftInZCq6Wbg&user=KbpLcOEAAAAJ",
+    "orcid": "https://orcid.org/0009-0008-1730-3776",
+    "website": "",
+    "interests": ["Aprendizaje Automático", "Robótica", "Open Source", "Aprendizaje por refuerzo", "Control Inteligente", "Estupidez Artificial"]
   },
   {
     "category": "phd",
@@ -631,10 +521,6 @@
     "role": {
       "en": "PhD Candidate",
       "es": "Doctoranda"
-    },
-    "bio": {
-      "en": "Investigating automated program synthesis and natural language query systems for data science.",
-      "es": "Investigando síntesis automatizada de programas y sistemas de consulta en lenguaje natural para ciencia de datos."
     },
     "photo": "",
     "email": "israa.aljanabi@uam.es",
